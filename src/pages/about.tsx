@@ -54,53 +54,55 @@ export default function About({ location }) {
                 </div>
             </div>
 
-            <div className='flex flex-row text-white h-[650px] w-full pb-80 gap-x-40 -mt-64' id='about_download'>
-                <div className='flex flex-col gap-6 my-auto h-[650px] py-40 px-20'>
-                    <div className='flex flex-row'>
-                        <div className='text-3xl capitalize w-2/3'>
-                            What Motivate Users to Download Our Mobile App
+            <div className="h-auto">
+                <div className='flex flex-row text-white w-full pb- gap-x-40 -mt-52 overflow-hidden' id='about_download'>
+                    <div className='flex flex-col gap-6 my-auto py-40 px-20'>
+                        <div className='flex flex-row'>
+                            <div className='text-3xl capitalize w-2/3'>
+                                What Motivate Users to Download Our Mobile App
+                            </div>
+
+                            <div>
+                                <StaticImage src='../images/white_star.svg' alt='' />
+                            </div>
                         </div>
 
-                        <div>
-                            <StaticImage src='../images/white_star.svg' alt='' />
+                        <div className="text-justify w-2/3">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Facilisis pellentesque pharetra volutpat feugiat tempor
+                        </div>
+
+                        <div className="mt-8">
+                            <StaticImage
+                                alt={""}
+                                // width={750}
+                                src={"../images/momoloannew.jpg"}
+                                className="rounded-md w-[20rem] lg:w-[45rem] lg:h-[15rem] xl:h-[30rem]"
+                            />
                         </div>
                     </div>
 
-                    <div className="text-justify w-2/3">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Facilisis pellentesque pharetra volutpat feugiat tempor
-                    </div>
-
-                    <div className="mt-8">
-                        <StaticImage
-                            alt={""}
-                            width={750}
-                            src={"../images/momoloannew.jpg"}
-                            className="rounded-md"
-                        />
-                    </div>
-                </div>
-
-                <div className='flex flex-col gap-y-6 mt-[35rem]'>
-                    <div className='flex flex-row gap-10'>
-                        <div>
-                            <StaticImage src="../images/moneybag.svg" alt="" />
+                    <div className='flex flex-col gap-y-6 mt-[35rem]'>
+                        <div className='flex flex-row gap-10'>
+                            <div>
+                                <StaticImage src="../images/moneybag.svg" alt="" />
+                            </div>
+                            <div>Flexible Terms</div>
                         </div>
-                        <div>Flexible Terms</div>
-                    </div>
 
-                    <div className='flex flex-row gap-10'>
-                        <div>
-                            <StaticImage src="../images/cash.svg" alt="" />
+                        <div className='flex flex-row gap-10'>
+                            <div>
+                                <StaticImage src="../images/cash.svg" alt="" />
+                            </div>
+                            <div>No Hidden Charges</div>
                         </div>
-                        <div>No Hidden Charges</div>
-                    </div>
 
-                    <div className='flex flex-row gap-10'>
-                        <div>
-                            <StaticImage src="../images/secure.svg" alt="" />
+                        <div className='flex flex-row gap-10'>
+                            <div>
+                                <StaticImage src="../images/secure.svg" alt="" />
+                            </div>
+                            <div>Secure and Safe</div>
                         </div>
-                        <div>Secure and Safe</div>
                     </div>
                 </div>
             </div>
@@ -127,7 +129,7 @@ export default function About({ location }) {
                 </div>
             </div>
 
-            <div className='flex flex-col text-center my-20 gap-y-6 relative'>
+            {/* <div className='flex flex-col text-center my-20 gap-y-6 relative'>
                 <div className="absolute right-60">
                     <StaticImage src='../images/redstar.png' alt='' />
                 </div>
@@ -166,9 +168,9 @@ export default function About({ location }) {
                     </div>
                 </div>
 
-            </div>
+            </div> */}
 
-            <div className='flex flex-row mx-auto gap-x-10 mb-20 mt-10 px-20 relative'>
+            <div className='flex flex-row mx-auto gap-x-10 my-28 px-20 relative'>
                 <div className='flex flex-col gap-y-4'>
                     <div className="text-3xl font-medium w-4/5">
                         Start Lending Money
@@ -205,10 +207,10 @@ export default function About({ location }) {
                 <div className="">
                     <StaticImage src='../images/momoimage.jpg' alt='' width={900} className="rounded-lg" />
                 </div>
-                
+
                 <div className="absolute bottom-10">
-                        <StaticImage src='../images/redstar.png' alt='' />
-                    </div>
+                    <StaticImage src='../images/redstar.png' alt='' />
+                </div>
             </div>
 
             <Footer />

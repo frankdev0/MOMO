@@ -20,15 +20,15 @@ export default function Navbar({ path }: Props) {
 			</div>
 
 			<div className='md:flex flex-row gap-x-20 my-auto text-xl font-semibold hidden'>
-				<div className={path === '/' && activeMenu}>
+				<div className={path === '/' ? activeMenu : ''}>
 					<Link to='/'>Home</Link>
 				</div>
 
-				<div className={path === '/about' && activeMenu}>
+				<div className={path === '/about' ? activeMenu : ''}>
 					<Link to='/about'>About Us</Link>
 				</div>
 
-				<div className={path === '/contact' && activeMenu}>
+				<div className={path === '/contact' ? activeMenu : ''}>
 					<Link to='/contact'>Contact</Link>
 				</div>
 			</div>
@@ -102,16 +102,16 @@ export default function Navbar({ path }: Props) {
 							</div>
 							<nav>
 								<div className='my-auto flex flex-col gap-y-4 font-semibold text-black'>
-									<div className={path === '/' && activeMenu}>
+									<div className={path === '/' ? activeMenu: ''}>
 										<Link to='/'>Home</Link>
 									</div>
 
-									<div className={path === '/about' && activeMenu}>
+									<div className={path === '/about' ? activeMenu: ''}>
 										<Link to='/about'>About Us</Link>
 									</div>
 
-									<div className={path === '/contact' && activeMenu}>
-										<Link to='/service'>Contact</Link>
+									<div className={path === '/contact' ? activeMenu: ''}>
+										<Link to='/contact'>Contact</Link>
 									</div>
 								</div>
 							</nav>
