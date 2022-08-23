@@ -5,10 +5,10 @@ import React from "react";
 export default function Footer() {
 	return (
 		<div
-			className='flex flex-col text-center md:text-left gap-y-10 md:flex-row md:px-72 justify-between py-6 gap-x-10 w-full bg bg-kashmir-blue text-white'
+			className='flex flex-col text-center md:text-left gap-y-10 md:flex-row px-10 md:px-72 justify-between py-6 gap-x-10 w-full bg bg-kashmir-blue text-white'
 			id='footer'
 		>
-			<div className='flex flex-row justify-between w-full'>
+			<div className='flex flex-row gap-x-10 justify-between w-full'>
 				<div className="my-auto">
 					<StaticImage src="../images/logo_old copy.png" alt="Momo Logo" className="text-white" />
 				</div>
