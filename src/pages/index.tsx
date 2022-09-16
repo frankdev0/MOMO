@@ -25,8 +25,6 @@ export default function Home({ location }) {
         }
     }`);
 
-
-
     return (
         <main className='w-full h-screen flex flex-col overflow-x-hidden font-raleway'>
             <title>Momo Home</title>
@@ -60,8 +58,9 @@ export default function Home({ location }) {
                             <div className="md:text-7xl mb-2">5 Million Naira</div>
 
                             <div className="text-xs md:text-base w-screen md:w-auto px-10 md:px-0">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Facilisis pellentesque
-                                pharetra volutpat feugiat tempor facilisis lectus.
+                                Get up to 5 million Naira with Momo Credit.
+                                It's easy and with no collateral. You can build your credit worthiness to 5000000.
+                                With Momo Credit you are just a click away from getting that money money to sort out your pressing needs.
                             </div>
 
                             <div className="hidden w-full md:flex -mt-16 md:-mt-14">
@@ -156,9 +155,8 @@ export default function Home({ location }) {
                         With Momo you can quickly sort out urgent bills
                     </div>
                     <div className='text-justify mt-2 text-[#808080]'>
-                        Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem
-                        ipsum losem ipsum lorem ipsum lorem ipsum lorem ipsum
-                        lorem ipusm lorem ipsum
+                        Momo Credit offers loan for your urgent bills.
+                        With Momo Credit you can get loan to pay for your DSTV subscription, pay for your light bill, etc...
                     </div>
                 </div>
 
@@ -201,10 +199,8 @@ export default function Home({ location }) {
                             <div className='text-xl md:text-2xl text-kashmir-blue font-semibold'>
                                 No Hidden Charges
                             </div>
-                            <div className="text-[#808080] text-justify">
-                                Lorem ipsum lorem ipsum lorem ipsum lorem ipsum
-                                lorem ipsum losem ipsum lorem ipsum lorem ipsum
-                                lorem ipsum lorem ipusm lorem ipsum
+                            <div className="text-[#808080] text-center">
+                                With Momo Credit there is no hidden charges, no collateral.
                             </div>
                         </div>
                     </div>
@@ -222,10 +218,9 @@ export default function Home({ location }) {
                             <div className='text-xl md:text-2xl text-kashmir-blue font-semibold'>
                                 Secure and Safe
                             </div>
-                            <div className="text-[#808080] text-justify">
-                                Lorem ipsum lorem ipsum lorem ipsum lorem ipsum
-                                lorem ipsum losem ipsum lorem ipsum lorem ipsum
-                                lorem ipsum lorem ipusm lorem ipsum
+                            <div className="text-[#808080] text-center">
+                                Momo Credit is safe, secure and easy to use.
+                                <div className="invisible">This is just a placeholder</div>
                             </div>
                         </div>
                     </div>
@@ -243,10 +238,8 @@ export default function Home({ location }) {
                             <div className='text-xl md:text-2xl text-kashmir-blue font-semibold'>
                                 Flexible Terms
                             </div>
-                            <div className="text-[#808080] text-justify">
-                                Lorem ipsum lorem ipsum lorem ipsum lorem ipsum
-                                lorem ipsum losem ipsum lorem ipsum lorem ipsum
-                                lorem ipsum lorem ipusm lorem ipsum
+                            <div className="text-[#808080] text-center">
+                                Momo Credit has the most customer friendly terms and conditions any customer can ask for.
                             </div>
                         </div>
                     </div>
@@ -271,10 +264,7 @@ export default function Home({ location }) {
                             Say Goodbye to Urgent 2K
                         </div>
                         <div className='md:w-2/3'>
-                            Lorem ipsum lorem ipsum lorem ipsum lorem ipsum
-                            lorem ipsum losem ipsum lorem ipsum lorem ipsum
-                            lorem ipsum lorem ipusm lorem ipsum lorem ipsum
-                            lorem ispus
+                            With Momo Credit no more calling anybody to send you urgent 2k because Momo Credit have you covered and just a click away.
                         </div>
                         <div className='flex flex-row gap-x-2 -mt-8'>
                             <div>
