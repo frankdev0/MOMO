@@ -6,7 +6,7 @@ import { Navbar, Footer, Testimonial } from "../components";
 export default function Service({ location }) {
 	return (
 		<main className='w-full h-screen flex flex-col overflow-x-hidden font-raleway'>
-			<title>About Momo</title>
+			<title>Momo's Services</title>
 
 			<Navbar path={location.pathname} />
 

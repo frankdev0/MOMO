@@ -23,6 +23,12 @@ export default function Footer() {
 					<div className="hover:underline mb-2">
 						<Link to="/contact">Contact</Link>
 					</div>
+					<div className="hover:underline mb-2">
+						<Link to="/terms">Terms & Conditions</Link>
+					</div>
+					<div className="hover:underline mb-2">
+						<Link to="/privacy">Privacy Policy</Link>
+					</div>
 				</div>
 			</div>
 			{/* <div className='flex flex-col'>
