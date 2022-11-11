@@ -18,7 +18,7 @@ export default function Terms({ location }) {
 
     return (
         <main className='w-full h-screen flex flex-col font-poppins'>
-            <title>Momo's Terms</title>
+            <title>MoMo's Terms</title>
 
             <Navbar path={location.pathname} />
 

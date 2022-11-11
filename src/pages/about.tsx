@@ -20,7 +20,7 @@ export default function About({ location }) {
 
     return (
         <main className='w-full h-screen flex flex-col font-poppins'>
-            <title>About Momo</title>
+            <title>About MoMo</title>
 
             <Navbar path={location.pathname} />
 
@@ -31,13 +31,10 @@ export default function About({ location }) {
                 <div className='flex flex-row md:ml-20 mb-48 md:mb-0'>
                     <div className='flex flex-col gap-y-4 md:ml-20 md:mt-10 md:text-left text-center'>
                         <div className='text-3xl md:text-4xl capitalize'>
-                            What Makes Momo Stand Out
+                            What Makes MoMo Stand Out
                         </div>
                         <div className='text-[#808080]'>
-                            Lorem ipsum lorem ipsum lorem ipsum lorem ipsum
-                            lorem ipsum losem ipsum lorem ipsum lorem ipsum
-                            lorem ipsum lorem ipusm lorem ipsum lorem ipsum
-                            lorem ispus
+                            We Provide Low Interest Loans In 5minutes. You can count on us to meet your urgent financial needs.
                         </div>
                         <div className='flex flex-row gap-x-2 -mt-8'>
                             <div>
@@ -72,7 +69,7 @@ export default function About({ location }) {
                 <div className="absolute">
                     <StaticImage className="z-0 w-screen py-24 h-[50rem] md:h-auto" src="../images/blue_rectangle.png" alt="" />
                 </div>
-                <div className='flex flex:col md:flex-row text-white w-full gap-x-40 overflow-hidden -mt-10 md:mt-0'>
+                <div className='flex flex:col md:flex-row text-white w-full gap-x-10 overflow-hidden -mt-10 md:mt-0'>
                     <div className='flex flex-col my-auto py-40 px-10 md:px-20'>
                         <div className='flex flex-row mt-10'>
                             <div className='text-2xl md:text-4xl capitalize w-2/3 z-10'>
@@ -131,28 +128,43 @@ export default function About({ location }) {
                         </div>
                     </div>
 
-                    <div className='md:flex flex-col gap-y-6 mt-[35rem] z-10 text-2xl hidden'>
-                        <div className='flex flex-row gap-10'>
-                            <div>
-                                <StaticImage src="../images/moneybag.svg" alt="" />
+                    <div className='md:flex flex-col gap-y-6 mt-[35rem] z-10 text-xl hidden'>
+                        <div className="flex flex-wrap overflow-hidden gap-x-8">
+                            <div className="overflow-hidden my-auto">
+                                <StaticImage className='h-6' src="../images/moneybag.svg" alt="" />
                             </div>
-                            <div>Flexible Terms</div>
+
+                            <div className="overflow-hidden">
+                                Flexible Terms
+                            </div>
+
                         </div>
 
-                        <div className='flex flex-row gap-10'>
-                            <div>
-                                <StaticImage src="../images/cash.svg" alt="" />
+                        <div className="flex flex-wrap overflow-hidden gap-x-8">
+
+                            <div className="overflow-hidden my-auto">
+                                <StaticImage className='h-6' src="../images/cash.svg" alt="" />
                             </div>
-                            <div>No Hidden Charges</div>
+
+                            <div className="overflow-hidden">
+                                No Hidden Charges
+                            </div>
+
                         </div>
 
-                        <div className='flex flex-row gap-10'>
-                            <div>
-                                <StaticImage src="../images/secure.svg" alt="" />
+                        <div className="flex flex-wrap overflow-hidden gap-x-8">
+
+                            <div className="overflow-hidden my-auto">
+                                <StaticImage className='h-6' src="../images/secure.svg" alt="" />
                             </div>
-                            <div>Secure and Safe</div>
+
+                            <div className="overflow-hidden">
+                                Secure and Safe
+                            </div>
                         </div>
                     </div>
+
+
                 </div>
             </div>
 
@@ -289,8 +301,7 @@ export default function About({ location }) {
                     </div>
 
                     <div className="text-[#727272]">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Facilisis pellentesque pharetra volutpat feugiat tempor
+                        With our simple and easy loan application process, you can access loans with just one-clicks. Download Now.
                     </div>
 
 

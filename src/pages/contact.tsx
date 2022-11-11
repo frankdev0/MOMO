@@ -6,7 +6,7 @@ import { Navbar, Footer, Testimonial } from "../components";
 export default function About({ location }) {
     return (
         <main className='w-full h-screen flex flex-col font-poppins'>
-            <title>Contact Momo</title>
+            <title>Contact MoMo</title>
 
             <Navbar path={location.pathname} />
 

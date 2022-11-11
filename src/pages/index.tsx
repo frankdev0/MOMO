@@ -27,7 +27,7 @@ export default function Home({ location }) {
 
     return (
         <main className='w-full h-screen flex flex-col overflow-x-hidden font-raleway'>
-            <title>Momo Home</title>
+            <title>MoMo Home</title>
 
             <Navbar path={location.pathname} />
 
@@ -58,9 +58,9 @@ export default function Home({ location }) {
                             <div className="md:text-7xl mb-2">5 Million Naira</div>
 
                             <div className="text-xs md:text-base w-screen md:w-auto px-10 md:px-0">
-                                Get up to 5 million Naira with Momo Credit.
+                                Get up to 5 million Naira with MoMo Credit.
                                 It's easy and with no collateral. You can build your credit worthiness to 5000000.
-                                With Momo Credit you are just a click away from getting that money money to sort out your pressing needs.
+                                With MoMo Credit you are just a click away from getting that money money to sort out your pressing needs.
                             </div>
 
                             <div className="hidden w-full md:flex -mt-16 md:-mt-14">
@@ -152,11 +152,11 @@ export default function Home({ location }) {
 
                 <div className='flex flex-col gap-y-2 md:ml-10 mt-10 px-8 text-center md:text-left md:pr-40'>
                     <div className='capitalize text-2xl md:text-3xl font-medium'>
-                        With Momo you can quickly sort out urgent bills
+                        With MoMo you can quickly sort out urgent bills
                     </div>
                     <div className='text-justify mt-2 text-[#808080]'>
-                        Momo Credit offers loan for your urgent bills.
-                        With Momo Credit you can get loan to pay for your DSTV subscription, pay for your light bill, etc...
+                        MoMo Credit offers loan for your urgent bills.
+                        With MoMo Credit you can get loan to pay for your DSTV subscription, pay for your light bill, etc...
                     </div>
                 </div>
 
@@ -185,7 +185,7 @@ export default function Home({ location }) {
                     Benefits of using the Momo Credit App
                 </div>
 
-                <div className='grid grid-cols-1 md:grid-cols-3 mt-6 gap-x-6'>
+                {/* <div className='grid grid-cols-1 md:grid-cols-3 mt-6 gap-x-6'>
                     <div className='flex flex-col gap-y-4'>
                         <div className='m-auto'>
                             <StaticImage
@@ -219,7 +219,7 @@ export default function Home({ location }) {
                                 Secure and Safe
                             </div>
                             <div className="text-[#808080] text-center">
-                                Momo Credit is safe, secure and easy to use.
+                                MoMo Credit is safe, secure and easy to use.
                                 <div className="invisible">This is just a placeholder</div>
                             </div>
                         </div>
@@ -239,10 +239,78 @@ export default function Home({ location }) {
                                 Flexible Terms
                             </div>
                             <div className="text-[#808080] text-center">
-                                Momo Credit has the most customer friendly terms and conditions any customer can ask for.
+                                MoMo Credit has the most customer friendly terms and conditions any customer can ask for.
                             </div>
                         </div>
                     </div>
+                </div> */}
+
+                <div className="flex flex-wrap -mx-4 overflow-hidden">
+
+                    <div className="my-4 px-4 w-1/3 overflow-hidden sm:w-full md:w-full lg:w-1/3 xl:w-1/3">
+                        <div className='flex flex-col gap-y-4'>
+                            <div className='m-auto'>
+                                <StaticImage
+                                    src='../images/icon_1.svg'
+                                    alt=''
+                                    width={45}
+                                />
+                            </div>
+
+                            <div className='flex flex-col gap-y-2 text-center'>
+                                <div className='text-xl md:text-xl text-kashmir-blue font-semibold'>
+                                    No Hidden Charges
+                                </div>
+                                <div className="text-[#808080] text-center">
+                                    With Momo Credit there is no hidden charges, no collateral.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="my-4 px-4 w-1/3 overflow-hidden sm:w-full md:w-full lg:w-1/3 xl:w-1/3">
+                        <div className='flex flex-col gap-y-4'>
+                            <div className='m-auto'>
+                                <StaticImage
+                                    src='../images/icon_2.svg'
+                                    alt=''
+                                    width={45}
+                                />
+                            </div>
+
+                            <div className='flex flex-col gap-y-2 text-center'>
+                                <div className='text-xl md:text-xl text-kashmir-blue font-semibold'>
+                                    Secure and Safe
+                                </div>
+                                <div className="text-[#808080] text-center">
+                                    MoMo Credit is safe, secure and easy to use.
+                                    <div className="invisible">This is just a placeholder</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="my-4 px-4 w-1/3 overflow-hidden sm:w-full md:w-full lg:w-1/3 xl:w-1/3">
+                    <div className='flex flex-col gap-y-4'>
+                        <div className='m-auto'>
+                            <StaticImage
+                                src='../images/icon_4.svg'
+                                alt=''
+                                width={45}
+                            />
+                        </div>
+
+                        <div className='flex flex-col gap-y-2 text-center'>
+                            <div className='text-xl md:text-xl text-kashmir-blue font-semibold'>
+                                Flexible Terms
+                            </div>
+                            <div className="text-[#808080] text-center">
+                                MoMo Credit has the most customer friendly terms and conditions any customer can ask for.
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+
                 </div>
             </div>
 
@@ -264,7 +332,7 @@ export default function Home({ location }) {
                             Say Goodbye to Urgent 2K
                         </div>
                         <div className='md:w-2/3'>
-                            With Momo Credit no more calling anybody to send you urgent 2k because Momo Credit have you covered and just a click away.
+                            With MoMo Credit no more calling anybody to send you urgent 2k because MoMo Credit have you covered and just a click away.
                         </div>
                         <div className='flex flex-row gap-x-2 -mt-8'>
                             <div>
@@ -304,11 +372,24 @@ export default function Home({ location }) {
                 // showIndicators
                 >
                     <div className=''>
-                        <Testimonial />
+                        <Testimonial
+                            name='Olayinka Adebayo'
+                            text="I am content and appreciative of the help I have gotten from you all. Without you guys, I can't imagine how quickly and easily my personal loan application went through. Thank you so much for all the services."
+                        />
                     </div>
 
                     <div className=''>
-                        <Testimonial />
+                        <Testimonial
+                            name='Bisi Phillips'
+                            text="I've had no issues with payments from the initial request. There whenever I needed assistance. Service that has helped me through many difficult times. came through for me every time. I greatly appreciate it."
+                        />
+                    </div>
+
+                    <div className=''>
+                        <Testimonial
+                            name='Ngozi Ogbu'
+                            text="MoMo Credit is a top-notch lender. The approval procedure was quick and painless, making it a wonderful experience. I sincerely appreciate your assistance and amazing service."
+                        />
                     </div>
                 </Carousel>
             </div>

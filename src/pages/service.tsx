@@ -6,7 +6,7 @@ import { Navbar, Footer, Testimonial } from "../components";
 export default function Service({ location }) {
 	return (
 		<main className='w-full h-screen flex flex-col overflow-x-hidden font-raleway'>
-			<title>Momo's Services</title>
+			<title>MoMo's Services</title>
 
 			<Navbar path={location.pathname} />
 
@@ -16,7 +16,7 @@ export default function Service({ location }) {
 					<div className='flex md:flex-row flex-col-reverse'>
 						<div className='flex flex-col md:my-24 my-4 gap-y-4'>
 							<div className="text-3xl md:text-6xl text-kashmir-blue capitalize font-bold drop-shadow-md">Loan Up To 5 million naira</div>
-							<div className="text-xl md:text-3xl text-kashmir-blue capitalize font-semibold drop-shadow-md">With the Momo Credit App</div>
+							<div className="text-xl md:text-3xl text-kashmir-blue capitalize font-semibold drop-shadow-md">With the MoMo Credit App</div>
 							<div className="my-2 md:w-2/3">Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
 								losem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipusm lorem ipsum lorem ipsum</div>
 
@@ -71,7 +71,7 @@ export default function Service({ location }) {
 						<div className='flex flex-row'>
 
 							<div className='flex flex-col gap-y-4 font-extralight text-xl text-justify'>
-								<div className="font-normal">An example of a Momo</div>
+								<div className="font-normal">An example of a MoMo</div>
 								<div className="font-normal -mt-4">loan calculation scheme</div>
 								<div>Borrow ₦100,000 on first loan</div>
 								<div>Interest (total cost of the loan): ₦0,000 (0% rate)</div>
@@ -138,7 +138,7 @@ export default function Service({ location }) {
 
 				<div className='flex flex-col gap-y-2 md:ml-10 md:mt-60 px-8'>
 					<div className='capitalize text-2xl w-full'>
-						With Momo you can quickly sort out urgent bills
+						With MoMo you can quickly sort out urgent bills
 					</div>
 					<div className='text-justify mt-2'>
 						Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem
