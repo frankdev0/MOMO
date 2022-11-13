@@ -41,8 +41,8 @@ export default function Navbar({ path }: Props) {
 				/>
 			</div>
 
-			<div className='hidden md:block my-auto font-raleway font-semibold'>
-				<button className='bg-kashmir-blue px-14 text-white py-4 rounded-md cursor-pointer transform hover:-translate-y-1 hover:scale-110 transition duration-500 ease-in-out'>
+			<div className='hidden lg:block my-auto font-raleway font-semibold'>
+				<button className='bg-kashmir-blue w-[9rem] lg:w-auto text-xs lg:text-base px-4 lg:px-14 text-white py-2 lg:py-4 rounded-md cursor-pointer transform hover:-translate-y-1 hover:scale-110 transition duration-500 ease-in-out'>
 					Get The App
 				</button>
 			</div>

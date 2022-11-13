@@ -9,12 +9,12 @@ export default function Footer() {
 			id='footer'
 		>
 			<div className='flex flex-row gap-x-10 justify-between w-full'>
-				<span className='text-primary text-2xl -mr-8 my-auto'>©</span>
-				<div className="my-auto">
+				<div className="my-auto flex flex-col">
 					<StaticImage src="../images/logo_old copy.png" alt="Momo Logo" className="text-white" />
+					<span className='text-gray-300 text-sm m-auto -mt-4'>© {new Date().getFullYear()}</span>
 				</div>
 
-				<div className='flex flex-row gap-x-10 text-sm my-auto'>
+				<div className='flex flex-col lg:flex-row gap-x-10 text-sm my-auto'>
 					<div className="hover:underline mb-2">
 						<Link to='/'>Home</Link>
 					</div>

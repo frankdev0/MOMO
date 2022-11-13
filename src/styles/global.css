@@ -36,6 +36,12 @@
     animation: slidetop 5s;
 }
 
+@media (max-width: 480px) {
+    #twophones1 {
+        background-image: none;
+    }
+  }
+
 @keyframes slidetop {
     from {
       margin-top: 50%;

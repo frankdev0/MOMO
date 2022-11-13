@@ -120,14 +120,14 @@ export default function Home({ location }) {
                         />
                     </div>
 
-                    <div className='md:hidden mt-6'>
+                    {/* <div className='md:hidden mt-6'>
                         <StaticImage
                             src='../images/iPhone 1 Pro.png'
                             alt='iPhone2'
                         // width={500}
                         // className='w-[183px] h-[374px]'
                         />
-                    </div>
+                    </div> */}
                 </div>
 
 
@@ -245,9 +245,9 @@ export default function Home({ location }) {
                     </div>
                 </div> */}
 
-                <div className="flex flex-wrap -mx-4 overflow-hidden">
+                <div className="flex flex-col lg:flex-wrap -mx-4 overflow-hidden">
 
-                    <div className="my-4 px-4 w-1/3 overflow-hidden sm:w-full md:w-full lg:w-1/3 xl:w-1/3">
+                    <div className="my-4 px-4 overflow-hidden sm:w-full md:w-full lg:w-1/3 xl:w-1/3">
                         <div className='flex flex-col gap-y-4'>
                             <div className='m-auto'>
                                 <StaticImage
@@ -268,7 +268,7 @@ export default function Home({ location }) {
                         </div>
                     </div>
 
-                    <div className="my-4 px-4 w-1/3 overflow-hidden sm:w-full md:w-full lg:w-1/3 xl:w-1/3">
+                    <div className="my-4 px-4 overflow-hidden sm:w-full md:w-full lg:w-1/3 xl:w-1/3">
                         <div className='flex flex-col gap-y-4'>
                             <div className='m-auto'>
                                 <StaticImage
@@ -290,7 +290,7 @@ export default function Home({ location }) {
                         </div>
                     </div>
 
-                    <div className="my-4 px-4 w-1/3 overflow-hidden sm:w-full md:w-full lg:w-1/3 xl:w-1/3">
+                    <div className="my-4 px-4 overflow-hidden sm:w-full md:w-full lg:w-1/3 xl:w-1/3">
                     <div className='flex flex-col gap-y-4'>
                         <div className='m-auto'>
                             <StaticImage
