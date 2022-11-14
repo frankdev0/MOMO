@@ -29,7 +29,7 @@ export default function About({ location }) {
                 className='flex flex-col-reverse md:flex-row w-full mt-20 justify-center px-6 lg:px-0'
             >
                 <div className='flex flex-row md:ml-20 mb-48 md:mb-0'>
-                    <div className='flex flex-col gap-y-4 md:ml-20 md:mt-10 md:text-left text-center'>
+                    <div className='flex flex-col gap-y-4 lg:ml-20 md:mt-10 md:text-left text-center'>
                         <div className='text-3xl md:text-4xl capitalize'>
                             What Makes MoMo Stand Out
                         </div>
@@ -65,7 +65,7 @@ export default function About({ location }) {
                 </div>
             </div>
 
-            <div className="h-auto relative -mt-52">
+            <div className="h-auto relative -mt-52 md:mt-0 lg:-mt-52">
                 <div className="absolute">
                     <StaticImage className="z-0 w-screen py-24 h-[50rem] md:h-auto" src="../images/blue_rectangle.png" alt="" />
                 </div>
@@ -81,21 +81,60 @@ export default function About({ location }) {
                             </div>
                         </div>
 
-                        <div className="text-justify w-2/3">
+                        <div className="hidden lg:flex z-50 text-justify w-2/3 mt-4">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                             Facilisis pellentesque pharetra volutpat feugiat tempor
                         </div>
 
-                        <div className="mt-8 hidden md:block">
-                            <StaticImage
-                                alt={""}
-                                // width={750}
-                                src={"../images/momoloannew.jpg"}
-                                className="rounded-md w-[20rem] lg:w-[55rem] lg:h-[15rem] xl:h-[30rem]"
-                            />
+                        <div className='flex flex-row gap-x-20'>
+                            <div className="mt-8 hidden md:block">
+                                <StaticImage
+                                    alt={""}
+                                    // width={750}
+                                    src={"../images/momoloannew.jpg"}
+                                    className="rounded-md w-[20rem] lg:w-[50rem] lg:h-[15rem] xl:h-[30rem]"
+                                />
+                            </div>
+
+
+                            <div className='hidden md:flex flex-col gap-y-6 my-auto z-10 text-lg lg:text-xl'>
+                                <div className="flex flex-wrap overflow-hidden gap-x-8">
+                                    <div className="overflow-hidden my-auto">
+                                        <StaticImage className='w-6 h-6' src="../images/moneybag.svg" alt="" />
+                                    </div>
+
+                                    <div className="overflow-hidden">
+                                        Flexible Terms
+                                    </div>
+
+                                </div>
+
+                                <div className="flex flex-wrap overflow-hidden gap-x-8">
+
+                                    <div className="overflow-hidden my-auto">
+                                        <StaticImage className='w-6 h-6' src="../images/cash.svg" alt="" />
+                                    </div>
+
+                                    <div className="overflow-hidden">
+                                        No Hidden Charges
+                                    </div>
+
+                                </div>
+
+                                <div className="flex flex-wrap overflow-hidden gap-x-8">
+
+                                    <div className="overflow-hidden my-auto">
+                                        <StaticImage className='w-6 h-6' src="../images/secure.svg" alt="" />
+                                    </div>
+
+                                    <div className="overflow-hidden">
+                                        Secure and Safe
+                                    </div>
+                                </div>
+                            </div>
                         </div>
 
-                        <div className="-mt-20 md:hidden">
+                        <div className="mt-10 md:hidden">
                             <StaticImage
                                 alt={""}
                                 // width={750}
@@ -105,66 +144,28 @@ export default function About({ location }) {
                         </div>
 
                         <div className='md:hidden flex flex-col gap-y-6 z-10 mt-10 text-base'>
-                            <div className='flex flex-row gap-10'>
+                            <div className='flex flex-row gap-x-10'>
                                 <div>
-                                    <StaticImage src="../images/moneybag.svg" alt="" />
+                                    <StaticImage className="w-5 h-5" src="../images/moneybag.svg" alt="" />
                                 </div>
                                 <div>Flexible Terms</div>
                             </div>
 
-                            <div className='flex flex-row gap-10'>
+                            <div className='flex flex-row gap-x-10'>
                                 <div>
-                                    <StaticImage src="../images/cash.svg" alt="" />
+                                    <StaticImage className="w-5 h-5" src="../images/cash.svg" alt="" />
                                 </div>
                                 <div>No Hidden Charges</div>
                             </div>
 
-                            <div className='flex flex-row gap-10'>
+                            <div className='flex flex-row gap-x-10'>
                                 <div>
-                                    <StaticImage src="../images/secure.svg" alt="" />
+                                    <StaticImage className="w-5 h-5" src="../images/secure.svg" alt="" />
                                 </div>
                                 <div>Secure and Safe</div>
                             </div>
                         </div>
                     </div>
-
-                    <div className='md:flex flex-col gap-y-6 mt-[35rem] z-10 text-xl hidden'>
-                        <div className="flex flex-wrap overflow-hidden gap-x-8">
-                            <div className="overflow-hidden my-auto">
-                                <StaticImage className='h-6' src="../images/moneybag.svg" alt="" />
-                            </div>
-
-                            <div className="overflow-hidden">
-                                Flexible Terms
-                            </div>
-
-                        </div>
-
-                        <div className="flex flex-wrap overflow-hidden gap-x-8">
-
-                            <div className="overflow-hidden my-auto">
-                                <StaticImage className='h-6' src="../images/cash.svg" alt="" />
-                            </div>
-
-                            <div className="overflow-hidden">
-                                No Hidden Charges
-                            </div>
-
-                        </div>
-
-                        <div className="flex flex-wrap overflow-hidden gap-x-8">
-
-                            <div className="overflow-hidden my-auto">
-                                <StaticImage className='h-6' src="../images/secure.svg" alt="" />
-                            </div>
-
-                            <div className="overflow-hidden">
-                                Secure and Safe
-                            </div>
-                        </div>
-                    </div>
-
-
                 </div>
             </div>
 
@@ -230,7 +231,7 @@ export default function About({ location }) {
                 </div>
             </div> */}
 
-            <div className='flex flex-col gap-y-4 md:mt-10'>
+            <div className='flex flex-col gap-y-4 mt-10 md:-mt-10'>
                 <div className="text-2xl md:text-4xl text-center">Explore Loan Offers for Different Purpose</div>
 
                 <div className='flex flex-col md:flex-row w-full text-white'>
@@ -330,7 +331,7 @@ export default function About({ location }) {
                     <StaticImage src='../images/momoimage.jpg' alt='' width={900} className="rounded-lg" />
                 </div>
 
-                <div className="absolute bottom-10">
+                <div className="hidden lg:block absolute bottom-10">
                     <StaticImage src='../images/redstar.png' alt='' />
                 </div>
             </div>

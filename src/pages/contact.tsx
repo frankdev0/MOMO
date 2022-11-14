@@ -12,7 +12,7 @@ export default function About({ location }) {
 
             {/* Hero */}
             <div className="flex">
-                <div className="flex flex-col md:flex-row relative mb-40 md:mb-0 lg:mb-16 h-[900px] w-full">
+                <div className="flex flex-col lg:flex-row relative mb-40 md:mb-72 lg:mb-16 h-[900px] w-full">
                     <div className="absolute">
                         <StaticImage src="../images/contact.png" alt="" className="z-[-100] h-screen md:h-auto w-screen" />
                     </div>
@@ -60,7 +60,7 @@ export default function About({ location }) {
                         </div>
                     </div>
 
-                    <div className='flex flex-col bg-kashmir-blue rounded-xl mt-20 px-10 md:px-16 py-10 justify-center md:w-2/5 md:mr-16 h-3/5 gap-y-4 z-50'>
+                    <div className='flex flex-col bg-kashmir-blue rounded-xl mt-20 md:mt-44 lg:mt-20 px-10 md:px-16 py-10 justify-center md:w-4/5 md:mx-auto md:mr-16 h-3/5 gap-y-4 z-50'>
                         <input type="text" name="" id="" className="rounded-xl p-4" placeholder="Full Name" />
 
                         <input type="phone" name="" id="" className="rounded-xl p-4" placeholder="Phone number" />

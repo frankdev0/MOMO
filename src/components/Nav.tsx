@@ -19,7 +19,7 @@ export default function Navbar({ path }: Props) {
 				</Link>
 			</div>
 
-			<div className='md:flex flex-row gap-x-20 my-auto text-xl font-semibold hidden'>
+			<div className='md:flex flex-row gap-x-10 lg:gap-x-20 my-auto text-md lg:text-xl font-semibold hidden'>
 				<div className={path === '/' ? activeMenu : ''}>
 					<Link to='/'>Home</Link>
 				</div>
@@ -33,7 +33,7 @@ export default function Navbar({ path }: Props) {
 				</div>
 			</div>
 
-			<div className={path === '/' ? '-mt-40' : '-mt-40 invisible'} id='top_ball'>
+			<div className={path === '/' ? '-mt-40' : '-mt-40 invisible md:hidden lg:block'} id='top_ball'>
 				<StaticImage
 					src='../images/nav_circle.png'
 					alt=''
