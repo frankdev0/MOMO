@@ -65,25 +65,24 @@ export default function About({ location }) {
                 </div>
             </div>
 
-            <div className="h-auto relative -mt-52 md:mt-0 lg:-mt-52">
+            <div className="h-auto relative -mt-52 md:mt-0 lg:-mt-20 xl:-mt-52">
                 <div className="absolute">
                     <StaticImage className="z-0 w-screen py-24 h-[50rem] md:h-auto" src="../images/blue_rectangle.png" alt="" />
                 </div>
                 <div className='flex flex:col md:flex-row text-white w-full gap-x-10 overflow-hidden -mt-10 md:mt-0'>
                     <div className='flex flex-col my-auto py-40 px-10 md:px-20'>
                         <div className='flex flex-row mt-10'>
-                            <div className='text-2xl md:text-4xl capitalize w-2/3 z-10'>
+                            <div className='text-xl lg:text-2xl xl:text-2xl capitalize w-2/3 z-10'>
                                 What Motivate Users to Download Our Mobile App
                             </div>
 
-                            <div>
+                            <div className="xl:-translate-x-20">
                                 <StaticImage src='../images/white_star.svg' alt='' />
                             </div>
                         </div>
 
                         <div className="hidden lg:flex z-50 text-justify w-2/3 mt-4">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                            Facilisis pellentesque pharetra volutpat feugiat tempor
+                            A quick onboarding process that includes sizable payments made in a short period of time. Momo Loan App aims to assist users achieve their personal and business goals by providing digital financial services. Our platform is built specially for you… it is seamless, and easy to navigate.
                         </div>
 
                         <div className='flex flex-row gap-x-20'>
@@ -92,13 +91,13 @@ export default function About({ location }) {
                                     alt={""}
                                     // width={750}
                                     src={"../images/momoloannew.jpg"}
-                                    className="rounded-md w-[20rem] lg:w-[50rem] lg:h-[15rem] xl:h-[30rem]"
+                                    className="rounded-md w-[20rem] lg:w-[40rem] xl:w-[50rem] lg:h-[15rem] xl:h-[30rem]"
                                 />
                             </div>
 
 
-                            <div className='hidden md:flex flex-col gap-y-6 my-auto z-10 text-lg lg:text-xl'>
-                                <div className="flex flex-wrap overflow-hidden gap-x-8">
+                            <div className='hidden md:flex flex-col gap-y-6 my-auto z-10 text-sm lg:text-base xl:text-xl'>
+                                <div className="flex flex-row overflow-hidden gap-x-8">
                                     <div className="overflow-hidden my-auto">
                                         <StaticImage className='w-6 h-6' src="../images/moneybag.svg" alt="" />
                                     </div>
@@ -109,7 +108,7 @@ export default function About({ location }) {
 
                                 </div>
 
-                                <div className="flex flex-wrap overflow-hidden gap-x-8">
+                                <div className="flex flex-row overflow-hidden gap-x-8">
 
                                     <div className="overflow-hidden my-auto">
                                         <StaticImage className='w-6 h-6' src="../images/cash.svg" alt="" />
@@ -121,7 +120,7 @@ export default function About({ location }) {
 
                                 </div>
 
-                                <div className="flex flex-wrap overflow-hidden gap-x-8">
+                                <div className="flex flex-row overflow-hidden gap-x-8">
 
                                     <div className="overflow-hidden my-auto">
                                         <StaticImage className='w-6 h-6' src="../images/secure.svg" alt="" />
@@ -231,22 +230,22 @@ export default function About({ location }) {
                 </div>
             </div> */}
 
-            <div className='flex flex-col gap-y-4 mt-10 md:-mt-10'>
+            <div className='flex flex-col gap-y-4 mt-10 md:-mt-10 lg:mt-10'>
                 <div className="text-2xl md:text-4xl text-center">Explore Loan Offers for Different Purpose</div>
 
                 <div className='flex flex-col md:flex-row w-full text-white'>
                     <div className="relative text-center">
-                        <StaticImage src="../images/momoimage.e copy.png" alt="" className="max-h-[338px]" />
+                        <StaticImage placeholder="blurred" src="../images/momoimage.e copy.png" alt="" className="max-h-[338px]" />
                         <div className="absolute font-bold top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">Car Loans</div>
                     </div>
 
                     <div className="relative text-center">
-                        <StaticImage src="../images/imagein.png" alt="" className="max-h-[338px]" />
+                        <StaticImage placeholder="blurred" src="../images/imagein.png" alt="" className="max-h-[338px]" />
                         <div className="absolute font-bold top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">Education Loans</div>
                     </div>
 
                     <div className="relative text-center">
-                        <StaticImage src="../images/momoina.png" alt="" className="max-h-[338px]" />
+                        <StaticImage placeholder="blurred" src="../images/momoina.png" alt="" className="max-h-[338px]" />
                         <div className="absolute font-bold top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">Business Loans</div>
                     </div>
 
@@ -331,7 +330,7 @@ export default function About({ location }) {
                     <StaticImage src='../images/momoimage.jpg' alt='' width={900} className="rounded-lg" />
                 </div>
 
-                <div className="hidden lg:block absolute bottom-10">
+                <div className="hidden translate-y-10 lg:block absolute bottom-10">
                     <StaticImage src='../images/redstar.png' alt='' />
                 </div>
             </div>
