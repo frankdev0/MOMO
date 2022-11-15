@@ -15,7 +15,7 @@ export default function Footer() {
 					<StaticImage src="../images/logo_old copy.png" alt="Momo Logo" className="text-white" />
 					</div>
 
-					<span className='text-gray-300 text-sm -mt-4 mx-auto'>All rights reserved © {new Date().getFullYear()}</span>
+					<span className='text-gray-300 text-xs -mt-4 mx-auto'>All rights reserved © {new Date().getFullYear()}</span>
 				</div>
 
 

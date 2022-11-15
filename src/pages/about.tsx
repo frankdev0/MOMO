@@ -30,10 +30,10 @@ export default function About({ location }) {
             >
                 <div className='flex flex-row md:ml-20 mb-48 md:mb-0'>
                     <div className='flex flex-col gap-y-4 lg:ml-20 md:mt-10 md:text-left text-center'>
-                        <div className='text-3xl md:text-4xl capitalize'>
+                        <div className='text-3xl md:text-4xl 2xl:text-6xl capitalize'>
                             What Makes MoMo Stand Out
                         </div>
-                        <div className='text-[#808080]'>
+                        <div className='text-[#808080] 2xl:text-xl'>
                             We Provide Low Interest Loans In 5minutes. You can count on us to meet your urgent financial needs.
                         </div>
                         <div className='flex flex-row gap-x-2 -mt-8'>
@@ -65,18 +65,18 @@ export default function About({ location }) {
                 </div>
             </div>
 
-            <div className="h-auto relative -mt-52 md:mt-0 lg:-mt-20 xl:-mt-52">
+            <div className="h-auto relative -mt-52 md:mt-0 lg:-mt-20 xl:-mt-52 2xl:-mt-40">
                 <div className="absolute">
                     <StaticImage className="z-0 w-screen py-24 h-[50rem] md:h-auto" src="../images/blue_rectangle.png" alt="" />
                 </div>
                 <div className='flex flex:col md:flex-row text-white w-full gap-x-10 overflow-hidden -mt-10 md:mt-0'>
                     <div className='flex flex-col my-auto py-40 px-10 md:px-20'>
                         <div className='flex flex-row mt-10'>
-                            <div className='text-xl lg:text-2xl xl:text-2xl capitalize w-2/3 z-10'>
+                            <div className='text-xl lg:text-2xl xl:text-2xl 2xl:text-4xl capitalize w-2/3 z-10'>
                                 What Motivate Users to Download Our Mobile App
                             </div>
 
-                            <div className="xl:-translate-x-20">
+                            <div className="xl:-translate-x-20 2xl:-translate-x-44">
                                 <StaticImage src='../images/white_star.svg' alt='' />
                             </div>
                         </div>
@@ -85,18 +85,18 @@ export default function About({ location }) {
                             A quick onboarding process that includes sizable payments made in a short period of time. Momo Loan App aims to assist users achieve their personal and business goals by providing digital financial services. Our platform is built specially for you… it is seamless, and easy to navigate.
                         </div>
 
-                        <div className='flex flex-row gap-x-20'>
+                        <div className='flex flex-row gap-x-20 2xl:gap-x-60'>
                             <div className="mt-8 hidden md:block">
                                 <StaticImage
                                     alt={""}
                                     // width={750}
                                     src={"../images/momoloannew.jpg"}
-                                    className="rounded-md w-[20rem] lg:w-[40rem] xl:w-[50rem] lg:h-[15rem] xl:h-[30rem]"
+                                    className="rounded-md w-[20rem] lg:w-[40rem] xl:w-[50rem] 2xl:w-[65rem] lg:h-[15rem] xl:h-[30rem]"
                                 />
                             </div>
 
 
-                            <div className='hidden md:flex flex-col gap-y-6 my-auto z-10 text-sm lg:text-base xl:text-xl'>
+                            <div className='hidden md:flex flex-col gap-y-6 2xl:gap-y-20 my-auto 2xl:mt-40 z-10 text-sm lg:text-base xl:text-xl 2xl:text-3xl'>
                                 <div className="flex flex-row overflow-hidden gap-x-8">
                                     <div className="overflow-hidden my-auto">
                                         <StaticImage className='w-6 h-6' src="../images/moneybag.svg" alt="" />
@@ -230,7 +230,7 @@ export default function About({ location }) {
                 </div>
             </div> */}
 
-            <div className='flex flex-col gap-y-4 mt-10 md:-mt-10 lg:mt-10'>
+            <div className='flex flex-col gap-y-4 mt-10 md:-mt-10 lg:mt-10 2xl:mt-20'>
                 <div className="text-2xl md:text-4xl text-center">Explore Loan Offers for Different Purpose</div>
 
                 <div className='flex flex-col md:flex-row w-full text-white'>
