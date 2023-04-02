@@ -236,17 +236,17 @@ export default function About({ location }) {
                 <div className='flex flex-col md:flex-row w-full text-white'>
                     <div className="relative text-center">
                         <StaticImage placeholder="blurred" src="../images/momoimage.e copy.png" alt="" className="max-h-[338px]" />
-                        <div className="absolute font-bold top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">Car Loans</div>
+                        <div className="absolute font-bold top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[30px] md:text-2xl lg:text-[40px] whitespace-nowrap">Car Loans</div>
                     </div>
 
                     <div className="relative text-center">
                         <StaticImage placeholder="blurred" src="../images/imagein.png" alt="" className="max-h-[338px]" />
-                        <div className="absolute font-bold top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">Education Loans</div>
+                        <div className="absolute font-bold top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[30px] md:text-2xl lg:text-[40px] whitespace-nowrap">Education Loans</div>
                     </div>
 
                     <div className="relative text-center">
                         <StaticImage placeholder="blurred" src="../images/momoina.png" alt="" className="max-h-[338px]" />
-                        <div className="absolute font-bold top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">Business Loans</div>
+                        <div className="absolute font-bold top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[30px] md:text-2xl lg:text-[40px] whitespace-nowrap">Business Loans</div>
                     </div>
 
                 </div>

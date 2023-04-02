@@ -20,7 +20,7 @@ export default function Testimonial({ name, text }) {
 					<StaticImage src='../images/quote_up.png' alt='' />
 				</div>
 
-				<div className="p-10">
+				<div className="lg:p-10">
 					{text}
 				</div>
 

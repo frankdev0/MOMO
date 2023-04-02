@@ -14,11 +14,11 @@ export default function About({ location }) {
             <div className="flex">
                 <div className="flex flex-col lg:flex-row relative mb-40 md:mb-72 lg:mb-16 h-[900px] 2xl:h-[1170px] w-full">
                     <div className="absolute">
-                        <StaticImage src="../images/contact.png" alt="" className="z-[-100] h-screen md:h-auto w-screen" />
+                        <StaticImage src="../images/touch.png" alt="" className="z-[-100] h-screen md:h-auto w-screen" />
                     </div>
 
                     <div className='flex flex-col gap-y-2 px-10 md:px-0 md:pl-20 mt-10 md:mt-40 z-50'>
-                        <div className="text-kashmir-blue font-medium text-3xl">Get In Touch</div>
+                        <div className="text-[#111111] font-medium text-3xl">Get In Touch</div>
                         <div className="text-[#686868] md:w-1/2">
                             Turn to our experts to perform comprehensive, multi-stage testing and auditing of your software solutions.
                         </div>
@@ -47,15 +47,15 @@ export default function About({ location }) {
 
                         <div className='flex flex-row gap-x-10 mt-4'>
                             <div>
-                                <StaticImage src="../images/fb.png" alt="" />
+                                <StaticImage src="../images/fb.svg" alt="" />
                             </div>
 
                             <div>
-                                <StaticImage src="../images/insta.png" alt="" />
+                                <StaticImage src="../images/ig.svg" alt="" />
                             </div>
 
                             <div>
-                                <StaticImage src="../images/twitter.png" alt="" />
+                                <StaticImage src="../images/twitter.svg" alt="" />
                             </div>
                         </div>
                     </div>

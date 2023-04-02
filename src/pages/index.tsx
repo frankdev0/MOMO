@@ -15,7 +15,7 @@ export default function Home({ location }) {
 
     const data = useStaticQuery(graphql`
     query {
-        file(relativePath: { eq: "background_1.png" }) {
+        file(relativePath: { eq: "new_hero.png" }) {
         childImageSharp {
             # Specify the image processing specifications right in the query.
             fluid {
@@ -52,8 +52,8 @@ export default function Home({ location }) {
                         </div>
                     </div>
 
-                    <div className="relative mt-6 mx-auto md:mx-0 md:my-auto flex justify-center md:justify-end md:mr-28 text-white text-center md:text-left">
-                        <div className='flex flex-col absolute md:w-1/3 gap-y-2 md:gap-y-4'>
+                    <div className="relative mt-6 mx-auto md:mx-0 inset-0 md:inset-y-1/4 lg:inset-0 lg:my-auto flex justify-center md:justify-end lg:mr-28 text-white text-center md:text-left">
+                        <div className='flex flex-col absolute px-10 lg:px-0 lg:w-1/3 gap-y-2 md:gap-y-4'>
                             <div className="md:text-5xl font-light">Loan Up to</div>
                             <div className="md:text-7xl mb-2">5 Million Naira</div>
 
@@ -151,7 +151,7 @@ export default function Home({ location }) {
                 </div>
 
                 <div className='flex flex-col gap-y-2 md:ml-10 mt-10 px-8 text-center md:text-left md:pr-40'>
-                    <div className='capitalize text-2xl md:text-3xl font-medium'>
+                    <div className='capitalize text-2xl md:text-3xl font-medium min-w-[300px]'>
                         With MoMo you can quickly sort out urgent bills
                     </div>
                     <div className='text-justify mt-2 text-[#808080]'>
@@ -327,7 +327,7 @@ export default function Home({ location }) {
                         />
                     </div>
 
-                    <div className='flex flex-col gap-y-4 md:ml-20 p-10 md:text-left text-center md:w-1/2'>
+                    <div className='flex flex-col items-center md:items-start gap-y-4 md:ml-20 p-10 md:text-left text-center md:w-1/2 md:min-w-[500px]'>
                         <div className='text-2xl md:text-3xl capitalize font-medium'>
                             Say Goodbye to Urgent 2K
                         </div>
@@ -356,7 +356,7 @@ export default function Home({ location }) {
             </div>
 
             <div
-                className='flex flex-col py-28 px-6 md:px-60 gap-y-6 text-center'
+                className='flex flex-col py-28 px-6  lg:px-60 gap-y-6 text-center'
                 id='testimonial'
             >
                 <div className='text-3xl font-bold'>What our customers say</div>
