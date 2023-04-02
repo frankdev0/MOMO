@@ -5,8 +5,6 @@ import React from "react";
 export default function Footer() {
 	return (
 		<div className='flex flex-wrap md:flex-row bg-[#1F58A3]  min-h-[550px] sm:min-h-[400px] md:min-h-[290px] w-full items-center justify-around overflow-hidden text-white relative'>
-			<StaticImage src="../images/white_star.svg" alt="" className="hidden md:block absolute top-[36px] right-10" />
-
 			<div className='flex flex-col gap-y-[10px] text-sm'>
 				<div className="text-lg font-bold">Company</div>
 				<div className="flex-1" />
@@ -50,6 +48,8 @@ export default function Footer() {
 				<div>About Protection of Personal Data</div>
 				</Link>
 			</div>
+
+			<StaticImage src="../images/white_star.svg" alt="" className="absolute top-[36px] right-10" />
 		</div>
 		// <div
 		// 	className='flex flex-col text-center md:text-left gap-y-10 md:flex-row px-10 md:px-10 justify-items-start py-6 gap-x-10 w-full bg-kashmir-blue text-white'
