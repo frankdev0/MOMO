@@ -15,7 +15,7 @@ export default function Navbar({ path }: Props) {
 		<div className='w-full flex flex-row justify-between px-10 font-poppins'>
 			<div className='my-auto'>
 				<Link to='/'>
-					<StaticImage src='../images/logo.svg' alt='Momo Logo' />
+					<StaticImage src='../images/newlogo.png' alt='Momo Logo' />
 				</Link>
 			</div>
 
@@ -77,7 +77,7 @@ export default function Navbar({ path }: Props) {
 						<div className='rounded border bg-white p-5 shadow-sm'>
 							<div className='mb-4 flex items-center justify-between'>
 								<div>
-									<StaticImage src="../images/logo.svg" alt="Logo" width={50} />
+									<StaticImage src="../images/newlogo.png" alt="Logo" width={50} />
 								</div>
 								<div>
 									<button
