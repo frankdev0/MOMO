@@ -12,7 +12,7 @@ export default function About({ location }) {
 
             {/* Hero */}
             <div className="flex">
-                <div className="flex flex-col lg:flex-row relative mb-40 md:mb-72 lg:mb-16 h-[900px] 2xl:h-[1170px] w-full">
+                <div className="flex flex-col lg:flex-row relative mb-40 md:mb-72 lg:mb-2.5 h-[100vh] 2xl:h-[1170px] w-full">
                     <div className="absolute">
                         <StaticImage src="../images/touch.png" alt="" className="z-[-100] h-screen md:h-auto w-screen" />
                     </div>
