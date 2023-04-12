@@ -52,15 +52,13 @@ export default function Home({ location }) {
                         </div>
                     </div>
 
-                    <div className="relative mt-6 mx-auto md:mx-0 inset-0 md:inset-y-1/4 lg:inset-0 lg:my-auto flex justify-center md:justify-end lg:mr-28 text-white text-center md:text-left">
+                    <div className="relative mt-6 mx-auto md:mx-0 inset-0 md:inset-y-1/4 lg:inset-0 lg:my-auto flex justify-center md:justify-start p-10 lg:mr-28 text-dark text-center md:text-left">
                         <div className='flex flex-col absolute px-10 lg:px-0 lg:w-1/3 gap-y-2 md:gap-y-4'>
-                            <div className="md:text-5xl font-light">Loan Up to</div>
+                            <div className="md:text-7xl">Loan Up to</div>
                             <div className="md:text-7xl mb-2">5 Million Naira</div>
 
                             <div className="text-xs md:text-base w-screen md:w-auto px-10 md:px-0">
-                                Get up to 5 million Naira with MoMo Credit.
-                                It's easy and with no collateral. You can build your credit worthiness to 5000000.
-                                With MoMo Credit you are just a click away from getting that money money to sort out your pressing needs.
+                                Get up to 5 million Naira with MoMo Credit. It's easy and with no collateral. You can build your credit worthiness to 5,000,000. With MoMo Credit you are just a click away from getting that money to sort out your pressing needs.’
                             </div>
 
                             <div className="hidden w-full md:flex -mt-16 md:-mt-14">
@@ -355,21 +353,18 @@ export default function Home({ location }) {
                 </div>
             </div>
 
-            <div
+            {/* <div
                 className='flex flex-col py-28 px-6  lg:px-60 gap-y-6 text-center'
                 id='testimonial'
             >
                 <div className='text-3xl font-bold'>What our customers say</div>
 
-                {/* <div className="w-2/3 mx-auto mt-4"></div> */}
                 <Carousel
                     autoPlay
                     infiniteLoop
                     interval={2000}
                     swipeable
                     showStatus={false}
-                // showArrows
-                // showIndicators
                 >
                     <div className=''>
                         <Testimonial
@@ -392,7 +387,7 @@ export default function Home({ location }) {
                         />
                     </div>
                 </Carousel>
-            </div>
+            </div> */}
 
             <Footer />
         </main >

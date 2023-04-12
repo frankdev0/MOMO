@@ -60,14 +60,14 @@ export default function About({ location }) {
                         </div>
                     </div>
 
-                    <div className='flex flex-col bg-kashmir-blue rounded-xl mt-20 md:mt-44 lg:mt-20 px-10 md:px-16 py-10 justify-center md:w-4/5 2xl:w-1/2 md:mx-auto md:mr-16 h-3/5 gap-y-4 z-50'>
+                    <div className='flex flex-col bg-kashmir-blue rounded-xl mt-20 md:mt-44 lg:mt-20 px-10 md:px-16 py-10 justify-center md:w-4/5 2xl:w-1/2 md:mx-auto md:mr-16 h-4/5 gap-y-4 z-50'>
                         <input type="text" name="" id="" className="rounded-xl p-4" placeholder="Full Name" />
 
                         <input type="phone" name="" id="" className="rounded-xl p-4" placeholder="Phone number" />
 
                         <input type="email" name="" id="" className="rounded-xl p-4" placeholder="Email address" />
 
-                        <textarea placeholder="How can we help you?" className="rounded-xl p-4" name="" id="" cols={30} rows={10}></textarea>
+                        <textarea placeholder="How can we help you?" className="rounded-xl p-4 overflow-hidden" name="" id="" cols={30} rows={10}></textarea>
 
                         <button type="submit" className="bg-white p-4 w-2/3 rounded-xl text-kashmir-blue">Send Message</button>
                     </div>
