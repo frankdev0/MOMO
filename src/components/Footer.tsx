@@ -4,8 +4,8 @@ import React from "react";
 
 export default function Footer() {
 	return (
-		<div className='flex flex-wrap md:flex-row bg-[#1F58A3]  min-h-[550px] sm:min-h-[400px] md:min-h-[290px] w-full items-center justify-around overflow-hidden text-white relative'>
-			<div className='flex flex-col gap-y-[10px] text-sm'>
+		<div className='flex flex-wrap md:flex-row bg-[#1F58A3]  min-h-[550px] sm:min-h-[400px] md:min-h-[290px] w-full items-center justify-around overflow-hidden text-white relative padding'>
+			<div className='flex flex-col gap-y-[10px] text-sm px-5'>
 				<div className="text-lg font-bold">Company</div>
 				<div className="flex-1" />
 				<Link to='/about'>
@@ -35,7 +35,7 @@ export default function Footer() {
 				</Link>
 			</div>
 
-			<div className='flex flex-col gap-y-[10px] text-sm'>
+			<div className='flex flex-col gap-y-[10px] text-sm px-5'>
 				<div className="text-lg font-bold">Other</div>
 				<div className="flex-1" />
 				<Link to='/terms'>
