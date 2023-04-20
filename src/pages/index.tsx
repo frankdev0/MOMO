@@ -57,7 +57,7 @@ export default function Home({ location }) {
                             <div className="md:text-5xl   pt-11 lg:pt-0">Loan Up to</div>
                             <div className="md:text-5xl  mb-1">5 Million Naira</div>
 
-                            <div className="text-[0.85rem] md:text-base w-screen md:w-auto px-10 md:px-0">
+                            <div className="text-[0.65rem] md:text-base w-screen md:w-auto px-10 md:px-0">
                                 Get up to 5 million Naira with MoMo Credit. It's easy and with no collateral. You can build your credit worthiness to 5,000,000. With MoMo Credit you are just a click away from getting that money to sort out your pressing needs.’
                             </div>
 
