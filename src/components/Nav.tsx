@@ -15,7 +15,7 @@ export default function Navbar({ path }: Props) {
 		<div className='w-full flex flex-row justify-between px-10 font-poppins'>
 			<div className='my-auto max-w-[150px]'>
 				<Link to='/'>
-					<StaticImage className="w-20 lg:w-full h-full" src='../images/momo.png' alt='Momo Logo' />
+					<StaticImage className="w-16 lg:w-full h-full" src='../images/momo.png' alt='Momo Logo' />
 				</Link>
 			</div>
 

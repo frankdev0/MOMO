@@ -16,22 +16,22 @@ export default function Footer() {
 					<div>Contact</div>
 				</Link>
 
-				<Link to='/'>
+				{/* <Link to='/'>
 					<div>Interest Breakdown</div>
-				</Link>
+				</Link> */}
 			</div>
 
 			<div className='flex flex-col gap-y-[10px] text-sm'>
 				<div className="text-lg font-bold">Our Services</div>
 				<div className="flex-1" />
 				<Link to='/'>
-					<div>Verification</div>
+					<div>Soft Loan</div>
 				</Link>
 				<Link to='/'>
-					<div>Loan</div>
+					<div>Business Loan</div>
 				</Link>
 				<Link to='/'>
-					<div>Repayment</div>
+					<div>Educational Loan</div>
 				</Link>
 			</div>
 
