@@ -36,16 +36,16 @@ export default function Footer() {
 			</div>
 
 			<div className='flex flex-col gap-y-[10px] text-sm px-5'>
-				<div className="text-lg font-bold">Other</div>
+				<div className="text-lg font-bold">Legal</div>
 				<div className="flex-1" />
 				<Link to='/terms'>
 				<div>Terms of Use</div>
 				</Link>
-				<Link to='/'>
+				{/* <Link to='/'>
 				<div>Operation Guide</div>
-				</Link>
+				</Link> */}
 				<Link to='/privacy'>
-				<div>About Protection of Personal Data</div>
+				<div>Privacy Statement</div>
 				</Link>
 			</div>
 
