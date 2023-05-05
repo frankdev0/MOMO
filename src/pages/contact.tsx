@@ -46,9 +46,15 @@ export default function About({ location }) {
                                 <StaticImage src="../images/fb.svg" alt="" />
                             </div>
 
-                            <div>
+                            <a href="https://instagram.com/momocreditsng?igshid=ZWIzMWE5ZmU3Zg==">
+                                <div>
+                                    <StaticImage src="../images/ig.svg" alt="" />
+                                </div>
+                            </a>
+
+                            {/* <div>
                                 <StaticImage src="../images/ig.svg" alt="" />
-                            </div>
+                            </div> */}
 
                             <div>
                                 <StaticImage src="../images/twitter.svg" alt="" />
