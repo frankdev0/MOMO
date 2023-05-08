@@ -292,7 +292,7 @@ export default function Terms({ location }) {
                     </div>
 
                     <div className="mt-2">
-                    The data that We collect from You is stored on Our secure servers (paste the link where it is stored). Where We have given You (or where You have chosen) a password which enables You to access certain parts of Our site, You are responsible for keeping this password confidential. We ask You not to share a password with anyone. Unfortunately, the transmission of information via the internet is not completely secure. Although We will always do Our best to protect Your personal data, We cannot guarantee 100% security of Your data transmitted to Our site; any transmission is at Your own risk. Once We have received Your information, We will use strict procedures and security features to try to prevent unauthorized access.
+                    The data that We collect from You is stored on Our secure servers. Where We have given You (or where You have chosen) a password which enables You to access certain parts of Our site, You are responsible for keeping this password confidential. We ask You not to share a password with anyone. Unfortunately, the transmission of information via the internet is not completely secure. Although We will always do Our best to protect Your personal data, We cannot guarantee 100% security of Your data transmitted to Our site; any transmission is at Your own risk. Once We have received Your information, We will use strict procedures and security features to try to prevent unauthorized access.
                     </div>
                 </div>
                 <div className='flex flex-col'>
