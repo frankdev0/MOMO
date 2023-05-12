@@ -200,40 +200,40 @@ export default function Terms({ location }) {
                     3 . Information collected when You use Our services
                     </div>
 
-                    <div className="mt-2 text-red-600">
+                    <div className="mt-2 text-600">
                     In order to serve You better with Our quality services, when You use Our service, We collect the following information on Your phone: 
                     </div>
                   
 
 <ul className="my-4 space-y-4">
-  <li className="text-red-500">*Location*</li>
-  <li className="text-red-500">*Calendar*</li>
-  <li className="text-red-500">*SMS*</li>
-  <li className="text-red-500">*Phone*,</li>
-  <li className="text-red-500">*Storage* and;</li>
-  <li className="text-red-500">*Camera*.</li>
-  <div className="text-red-500">We require permission to access these information to assess Your credit worthiness and provide customized loan service. Your data is protected with Us.</div>
-  <li className="text-red-500">(i) Location:</li>
-  <div className="mt-2 text-red-500">We collect and monitor Your device location information to improve Your loan acceptability, and reduce the risk associated with Your loan application. This will enable Us make a better decision whether or not to grant Your loan application. We also collect location data which allows Us to determine Your precise or approximate location. This information is collected during the loan application process, and We use this data to enhance Our credit risk and underwriting framework, as well as to prevent fraud.</div>
-  <li className="text-red-500">Storage:</li>
-  <div className="mt-2 text-red-500">We need Your storage permission so that Your Know Your Customer (KYC) and other relevant documents can be safely and securely downloaded and saved on Your phone. This will enable You upload Your KYC documents fast and increase the chances of Your loan application being approved without delay.</div>
+  <li className="text-500">*Location*</li>
+  <li className="text-500">*Calendar*</li>
+  <li className="text-500">*SMS*</li>
+  <li className="text-500">*Phone*,</li>
+  <li className="text-500">*Storage* and;</li>
+  <li className="text-500">*Camera*.</li>
+  <div className="text-500">We require permission to access these information to assess Your credit worthiness and provide customized loan service. Your data is protected with Us.</div>
+  <li className="text-500">(i) Location:</li>
+  <div className="mt-2 text-500">We collect and monitor Your device location information to improve Your loan acceptability, and reduce the risk associated with Your loan application. This will enable Us make a better decision whether or not to grant Your loan application. We also collect location data which allows Us to determine Your precise or approximate location. This information is collected during the loan application process, and We use this data to enhance Our credit risk and underwriting framework, as well as to prevent fraud.</div>
+  <li className="text-500">Storage:</li>
+  <div className="mt-2 text-500">We need Your storage permission so that Your Know Your Customer (KYC) and other relevant documents can be safely and securely downloaded and saved on Your phone. This will enable You upload Your KYC documents fast and increase the chances of Your loan application being approved without delay.</div>
   <div className="mt-2">
-    <li className="text-red-500">Phone:</li>
-    <div className="mt-1 text-red-500">Momo Credit app collects and monitor information about Your device which include the device hardware model, build model, Ram, IMEI, serial number, SSAID, SIM information (includes network operator, roaming state, MNC and MCC codes), WiFi information and any other information on Your device including on the software necessary. This is to prevent fraud and ensure that no unauthorized device act on Your behalf.</div>
+    <li className="text-500">Phone:</li>
+    <div className="mt-1 text-500">Momo Credit app collects and monitor information about Your device which include the device hardware model, build model, Ram, IMEI, serial number, SSAID, SIM information (includes network operator, roaming state, MNC and MCC codes), WiFi information and any other information on Your device including on the software necessary. This is to prevent fraud and ensure that no unauthorized device act on Your behalf.</div>
   </div>
   <div className="mt-2">
-    <li className="text-red-500">SMS:</li>
-    <div className="mt-1 text-red-500">We collect and upload all Your SMS data and information to read, store and retrieve financial and transactional data to know Your financial history and help reduce risk associated with Your application and provide You with appropriate credit analysis. While using the application, it periodically sends financial SMS information to Our servers. We store the data in Our server.</div>
+    <li className="text-500">SMS:</li>
+    <div className="mt-1 text-500">We collect and upload all Your SMS data and information to read, store and retrieve financial and transactional data to know Your financial history and help reduce risk associated with Your application and provide You with appropriate credit analysis. While using the application, it periodically sends financial SMS information to Our servers. We store the data in Our server.</div>
   </div>
   <div className="mt-2">
-    <li className="text-red-500">Camera:</li>
-    <div className="mt-1 text-red-500">Our app requires camera access to enable You take a selfie for biometrics, scan and upload relevant documents for proper KYC documentation. This is to prevent fraud and loan identity disputes, prevent unauthorized access to Your device and to authenticate that it is You requesting for a loan. It will also make Your loan application faster.</div>
+    <li className="text-500">Camera:</li>
+    <div className="mt-1 text-500">Our app requires camera access to enable You take a selfie for biometrics, scan and upload relevant documents for proper KYC documentation. This is to prevent fraud and loan identity disputes, prevent unauthorized access to Your device and to authenticate that it is You requesting for a loan. It will also make Your loan application faster.</div>
   </div>
   <div className="mt-2">
-    <li className="text-red-500">Calendar:</li>
-    <div className="mt-1 text-red-500">Our app requires access to Your calendar to set up reminder on Your loan due date. This is to remind You to pay back Your loan on the due date.</div>
+    <li className="text-500">Calendar:</li>
+    <div className="mt-1 text-500">Our app requires access to Your calendar to set up reminder on Your loan due date. This is to remind You to pay back Your loan on the due date.</div>
     </div>
-    <div className="mt-2 text-red-500">
+    <div className="mt-2 text-500">
   We also collect the following information saved on Your smartphone:
   <ul className="list-disc ml-8">
     <li>– installed applications</li>
@@ -312,7 +312,7 @@ export default function Terms({ location }) {
                     </div>
 
                     <div className="mt-2">
-                    You have the right to ask Us not to process Your personal data for marketing purposes and to withdraw Your consent at any time. Please note that the withdrawal of Your consent will not affect the lawful processing of data which We have obtained based on Your previous consent. We will usually inform You (before collecting Your data) if We intend to use Your data for the aforementioned purposes or if We intend to disclose Your information to any third party for such purposes. You can exercise Your right to prevent such processing by checking certain boxes on the forms We use to collect Your data. You can also exercise the right at any time by contacting Us using in-app support feature on the mobile application or using the complaint tab on the web portal at <span className="bg-yellow-400">support@momocredits.com</span> Our site may, from time to time, contain links to and from the websites of Our partner networks, advertisers and affiliates. If You follow a link to any of these websites, please note that these websites have their own privacy policies and that We do not accept any responsibility or liability for these policies. Please check these policies before You submit any personal data to these websites.
+                    You have the right to ask Us not to process Your personal data for marketing purposes and to withdraw Your consent at any time. Please note that the withdrawal of Your consent will not affect the lawful processing of data which We have obtained based on Your previous consent. We will usually inform You (before collecting Your data) if We intend to use Your data for the aforementioned purposes or if We intend to disclose Your information to any third party for such purposes. You can exercise Your right to prevent such processing by checking certain boxes on the forms We use to collect Your data. You can also exercise the right at any time by contacting Us using in-app support feature on the mobile application or using the complaint tab on the web portal at <span className="bg-400">support@momocredits.com</span> Our site may, from time to time, contain links to and from the websites of Our partner networks, advertisers and affiliates. If You follow a link to any of these websites, please note that these websites have their own privacy policies and that We do not accept any responsibility or liability for these policies. Please check these policies before You submit any personal data to these websites.
                     </div>
                 </div>
                 <div className='flex flex-col'>
@@ -339,7 +339,7 @@ export default function Terms({ location }) {
                     Contact
                     </div>
                     <div className="mt-2">
-                    Questions, comments and requests regarding this privacy policy are welcomed and should be addressed to MCL via the in-app support feature on the mobile application or using the complaint tab on the web portal at <span className="bg-yellow-400">support@momocredits.com</span>
+                    Questions, comments and requests regarding this privacy policy are welcomed and should be addressed to MCL via the in-app support feature on the mobile application or using the complaint tab on the web portal at <span className="bg-400">support@momocredits.com</span>
                     </div>
                 </div>
 

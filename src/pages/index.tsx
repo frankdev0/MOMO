@@ -132,7 +132,7 @@ export default function Home({ location }) {
 
                 <div className="hidden md:block">
                     <StaticImage
-                        src='../images/bigdevice.png'
+                        src='../images/iphonex.png'
                         alt='iPhone1'
                         // width={550}
                         className='w-[246px] h-[502px]'
@@ -317,20 +317,20 @@ export default function Home({ location }) {
                 id='urgent2k'
             >
                 <div className='flex flex-col md:flex-row justify-center w-full mx-auto'>
-                    <div className='px-20 -ml-32 md:px-0 md:my-2' id="bounce">
+                    <div className='px-20 -ml-32 md:px-10 md:my-2 flex justify-center' id="bounce">
                         <StaticImage
-                            src='../images/bounceiphone.png'
+                            src='../images/bounceiphonex.png'
                             alt=''
-                        width={450}
+                        width={350}
                         />
                     </div>
 
                     <div className='flex flex-col items-center md:items-start gap-y-4 md:ml-20 p-10 md:text-left text-center md:w-1/2 md:min-w-[500px]'>
                         <div className='text-2xl md:text-3xl capitalize font-medium'>
-                            Say Goodbye to Urgent 2K
+                            Say Goodbye to "Urgent 2K"
                         </div>
                         <div className='md:w-2/3'>
-                            With MoMo Credit no more calling anybody to send you urgent 2k because MoMo Credit have you covered and just a click away.
+                            With MoMo Credit no more calling anybody to send you "urgent 2k" because MoMo Credit have you covered and just a click away.
                         </div>
                         <div className='flex flex-row gap-x-2 -mt-8'>
                             <div>

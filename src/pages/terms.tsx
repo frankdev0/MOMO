@@ -277,7 +277,7 @@ export default function Terms({ location }) {
                 </div>
 
                 {/* starts here */}
-                <h1 className="text-yellow-500 font-bold text-lg">Our Lending Terms</h1>
+                <h1 className="text-500 font-bold text-lg">Our Lending Terms</h1>
 <p className="my-2">Your Obligation</p>
 <ol className="list-decimal ml-5 my-2">
   <li className="my-2">You agree to repay to MoMo Credit, the Loan sum, including any convenience, default or penalty fees, flat interest rate, service fee, maintenance fee and other amounts due to MoMo Credit charged to this Account. You also promise to pay these amounts as agreed in this Agreement on or before the Payment Due Date.</li>
@@ -420,7 +420,7 @@ export default function Terms({ location }) {
   <p>You shall cooperate as fully as reasonably required in the defense of any such claim. MoMo Credit reserves the right, at its own expense, to assume the exclusive defense and control of any matter subject to indemnification by You. You agree not to settle any matter without the prior written consent of MoMo Credit. For the avoidance of doubt, this indemnification, defense and hold harmless obligation will survive this Agreement and the termination of Your use of the Services.</p>
 </div>
 
-<div className="text-red-500">
+<div className="text-500">
   <h2 className="text-2xl font-bold mb-4">Declaration by You</h2>
   <p>a. I hereby confirm that I have read, understood and agreed to the above terms and conditions. I also authorize the MoMo Credit Limited to present the repayment instrument issued by me (in favour of MoMo Credit Limited) for the repayment of the loan/credit as and when due until the entire amount owed is fully paid and if, for any reason whatsoever, my account is not funded at the time of presentation, I shall be criminally liable under the Dishonored Cheques (Offences) Act, CAP D1, LFN 2004.</p>
   <p>b. I also declare by signing this Agreement and taking credit/drawing on the loan that I shall repay all moneys in accordance with the schedule of repayment as and when due. In the event that I refuse to repay in the terms of the schedule and the credit facility becomes delinquent, MoMo Credit shall have the right to edge against its risks in accordance with the terms of its Privacy Policy and report the delinquent loan to the appropriate authorities in line with extant lending regulations.</p>

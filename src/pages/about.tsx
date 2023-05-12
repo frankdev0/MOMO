@@ -58,7 +58,7 @@ export default function About({ location }) {
 
                 <div className='px-10 md:px-0 md:mr-28 my-2' id="bounce">
                     <StaticImage
-                        src='../images/groupeddevice.png'
+                        src='../images/groupeddevicex.png'
                         alt=''
                         width={800}
                     />
@@ -233,7 +233,7 @@ export default function About({ location }) {
             <div className='flex flex-col gap-y-4 mt-10 md:-mt-10 lg:mt-10 2xl:mt-20'>
                 <div className="text-2xl md:text-4xl text-center">Explore Loan Offers for Different Purpose</div>
 
-                <div className='flex flex-col md:flex-row w-full text-white'>
+                <div className='flex flex-col md:flex-row w-full text-white justify-center'>
                     <div className="relative text-center">
                         <StaticImage placeholder="blurred" src="../images/momoimage.e copy.png" alt="" className="max-h-[338px]" />
                         <div className="absolute font-bold top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[30px] md:text-2xl lg:text-[40px] whitespace-nowrap">Car Loans</div>
