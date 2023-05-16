@@ -111,7 +111,7 @@ export default function Home({ location }) {
                 <div className='flex flex-row px-20 mt-20'>
                     <div className="md:hidden">
                         <StaticImage
-                            src='../images/bigdevice.png'
+                            src='../images/iphonex.png'
                             alt='iPhone1'
                             // width={550}
                             className='w-[246px] h-[502px]'
@@ -141,7 +141,7 @@ export default function Home({ location }) {
 
                 <div className='hidden md:block mt-28 ml-6'>
                     <StaticImage
-                        src='../images/smalldevice.png'
+                        src='../images/iphonesmall.png'
                         alt='iPhone2'
                         // width={500}
                         className='w-[183px] h-[374px]'
@@ -317,7 +317,7 @@ export default function Home({ location }) {
                 id='urgent2k'
             >
                 <div className='flex flex-col md:flex-row justify-center w-full mx-auto'>
-                    <div className='px-20 -ml-32 md:px-10 md:my-2 flex justify-center' id="bounce">
+                    <div className='flex flex-col items-center gap-y-4 md:ml-20  md:text-left text-center ' id="bounce">
                         <StaticImage
                             src='../images/bounceiphonex.png'
                             alt=''
@@ -325,31 +325,33 @@ export default function Home({ location }) {
                         />
                     </div>
 
-                    <div className='flex flex-col items-center md:items-start gap-y-4 md:ml-20 p-10 md:text-left text-center md:w-1/2 md:min-w-[500px]'>
-                        <div className='text-2xl md:text-3xl capitalize font-medium'>
+                   
+                        <div className='flex flex-col items-center gap-y-4 md:ml-20 p-10 md:text-left text-center md:w-1/2 md:min-w-[500px]'>
+                            <div className='text-2xl md:text-3xl capitalize font-medium'>
                             Say Goodbye to "Urgent 2K"
-                        </div>
-                        <div className='md:w-2/3'>
+                            </div>
+                            <div className='md:w-2/3'>
                             With MoMo Credit no more calling anybody to send you "urgent 2k" because MoMo Credit have you covered and just a click away.
-                        </div>
-                        <div className='flex flex-row gap-x-2 -mt-8'>
+                            </div>
+                            <div className='flex flex-row gap-x-2 -mt-8'>
                             <div>
                                 <StaticImage
-                                    src='../images/app.svg'
-                                    alt='Apple Logo'
-                                    width={180}
+                                src='../images/app.svg'
+                                alt='Apple Logo'
+                                width={180}
                                 />
                             </div>
-
                             <div className='my-auto'>
                                 <StaticImage
-                                    src='../images/google-play-badge.png'
-                                    alt='Apple Logo'
-                                    width={200}
+                                src='../images/google-play-badge.png'
+                                alt='Apple Logo'
+                                width={200}
                                 />
                             </div>
+                            </div>
                         </div>
-                    </div>
+                    
+
                 </div>
             </div>
 
