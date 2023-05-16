@@ -271,7 +271,7 @@ export default function Home({ location }) {
                             <div className='m-auto'>
                                 <StaticImage
                                     src='../images/icon_2.svg'
-                                    alt=''
+                                    alt='secure'
                                     width={45}
                                 />
                             </div>
