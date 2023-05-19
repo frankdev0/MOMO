@@ -12,7 +12,7 @@ export default function Navbar({ path }: Props) {
 	let activeMenu = 'text-kashmir-blue';
 
 	return (
-		<div className='w-full flex flex-row justify-between px-10 font-poppins'>
+		<div className='w-full flex flex-row justify-between px-10 py-2.5 md:py-0 font-poppins'>
 			<div className='my-auto max-w-[150px]'>
 				<Link to='/'>
 					<StaticImage className="w-16 lg:w-full h-full" src='../images/momo.png' alt='Momo Logo' />
