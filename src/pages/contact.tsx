@@ -37,7 +37,7 @@ export default function About({ location }) {
       {
         question: 'Is there interest or any charges on using the MoMo Credit loan?',
         answer:
-          'MoMo Credit loan is an interest free loan, but there is a service fee charge for on the usage of the platform.',
+          'MoMo Credit loan is an interest free loan, but there is a service fee charge for the usage of the platform.',
       },
       {
         question: 'Who can apply for loan on MoMo Credit app?',
@@ -47,7 +47,7 @@ export default function About({ location }) {
       {
         question: 'Who can stand as a guarantor?',
         answer:
-          'A guarantors must be salary earners.',
+          'A guarantor must be a salary earner.',
       },
       {
         question: 'How much can I apply as a first time customer?',
@@ -69,7 +69,7 @@ export default function About({ location }) {
           '7 days for new customers.',
       },
       {
-        question: 'As a returning customer can my loan duration be increased if yes, how many day?',
+        question: 'As a returning customer can my loan duration be increased if yes, how many days?',
         answer:
           'Returning customers who have good repayment history can have their loan duration extended to 14 days.',
       },

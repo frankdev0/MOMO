@@ -24,15 +24,15 @@ export default function Footer() {
 			<div className='flex flex-col gap-y-[10px] text-sm'>
 				<div className="text-lg font-bold">Our Services</div>
 				<div className="flex-1" />
-				<Link to='/'>
+			
 					<div>Soft Loan</div>
-				</Link>
-				<Link to='/'>
+				
+				
 					<div>Business Loan</div>
-				</Link>
-				<Link to='/'>
+			
+				
 					<div>Educational Loan</div>
-				</Link>
+				
 			</div>
 
 			<div className='flex flex-col gap-y-[10px] text-sm px-5'>
