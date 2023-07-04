@@ -100,7 +100,7 @@ export default function About({ location }) {
 
             {/* Hero */}
             <div className="flex">
-                <div className="flex flex-col lg:flex-row relative mb-40 md:mb-72 lg:mb-2.5 h-[100vh] 2xl:h-[1170px] w-full">
+                <div className="flex flex-col lg:flex-row relative mb-40 md:mb-10 lg:mb-2.5 h-[100vh] 2xl:h-[1170px] w-full">
                     <div className="absolute">
                         <StaticImage src="../images/touch.png" alt="" className="z-[-100] h-screen md:h-auto w-screen" />
                     </div>
@@ -168,17 +168,18 @@ export default function About({ location }) {
           
     </div>
       {/* Faq goes here */}
-      <div className="max-w-full ml-10 mb-10 mt-40">
-      <h2 className="text-2xl font-bold mb-6">Frequently Asked Questions</h2>
-      <div className="flex flex-col sm:flex-row">
-      <div className="space-y-4 mx-3 w-full sm:w-1/2">
+      <div className="max-w-full mx-auto ml-5 mr-5 mb-10 mt-20 sm:mt-40 flex justify-center items-center">
+        <div>
+      <h2 className="text-2xl font-bold my-8">Frequently Asked Questions</h2>
+      <div className="flex flex-col sm:flex-row space-x-0 sm:space-x-3">
+      <div className="space-y-4  w-full sm:w-1/2 ">
         {faqData.map((faq, index) => (
           <div key={index} className="border border-gray-200 rounded p-4 h-auto">
             <button
               className="flex items-center justify-between w-full focus:outline-none"
               onClick={() => toggleAccordionTwo(index)}
             >
-              <h3 className="text-lg font-medium h-10">{faq.question}</h3>
+              <h3 className="text-sm font-medium h-auto sm:h-12 text-left">{faq.question}</h3>
               <svg
                 className={`w-5 h-5 transition-transform duration-300 transform ${
                   activeIndexTwo === index ? 'rotate-180' : 'rotate-0'
@@ -203,14 +204,14 @@ export default function About({ location }) {
           </div>
         ))}
       </div>
-      <div className="space-y-4 w-full sm:w-1/2">
+      <div className="space-y-4 w-full sm:w-1/2 mt-4 sm:mt-0">
         {secondFaq.map((faq, index) => (
           <div key={index} className="border border-gray-200 rounded p-4 h-auto">
             <button
               className="flex items-center justify-between w-full focus:outline-none"
               onClick={() => toggleAccordion(index)}
             >
-              <h3 className="text-lg font-medium h-10">{faq.question}</h3>
+              <h3 className="text-sm font-medium h-auto sm:h-12 text-left">{faq.question}</h3>
               <svg
                 className={`w-5 h-5 transition-transform duration-300 transform ${
                   activeIndex === index ? 'rotate-180' : 'rotate-0'
@@ -234,6 +235,7 @@ export default function About({ location }) {
             )}
           </div>
         ))}
+      </div>
       </div>
       </div>
     </div>
