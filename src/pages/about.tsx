@@ -34,7 +34,7 @@ export default function About({ location }) {
                             What Makes MoMo Stand Out
                         </div>
                         <div className='text-[#808080] 2xl:text-xl'>
-                            We Provide Low Interest Loans In 5minutes. You can count on us to meet your urgent financial needs.
+                            We provide fast low interest loans. You can count on us to meet your urgent financial needs.
                         </div>
                         <div className='flex flex-row gap-x-2 -mt-8'>
                             <div>

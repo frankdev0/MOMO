@@ -1,11 +1,99 @@
 import { StaticImage } from "gatsby-plugin-image";
-import React from "react";
+import React, {useState} from "react";
 import { Carousel } from "react-responsive-carousel";
 import { Navbar, Footer, Testimonial } from "../components";
 
 export default function About({ location }) {
+
+    const [activeIndex, setActiveIndex] = useState(-1);
+    const [activeIndexTwo, setActiveIndexTwo] = useState(-1);
+
+    const toggleAccordionTwo = (index: number) => {
+      if (activeIndexTwo === index) {
+        setActiveIndexTwo(-1);
+      } else {
+        setActiveIndexTwo(index);
+      }
+    };
+    const toggleAccordion = (index: number) => {
+      if (activeIndex === index) {
+        setActiveIndex(-1);
+      } else {
+        setActiveIndex(index);
+      }
+    };
+  
+    const faqData = [
+      {
+        question: 'What is MoMo Credit?',
+        answer:
+          'MoMo Credit is a loan app that allows you apply for a short term loan through the MoMo Credit app.',
+      },
+      {
+        question: 'Why should I use MoMo Credit app?',
+        answer:
+          'MoMo Credit gives you access to soft loan, business loan and education loan. With Momo Credit you are just a click away from accessing that urgent funds to finance your urgent needs.',
+      },
+      {
+        question: 'Is there interest or any charges on using the MoMo Credit loan?',
+        answer:
+          'MoMo Credit loan is an interest free loan, but there is a service fee charge for on the usage of the platform.',
+      },
+      {
+        question: 'Who can apply for loan on MoMo Credit app?',
+        answer:
+          'Only salary earners with proof of their monthly salaries can apply for loans on MoMo Credit app. MoMo Credit is strictly for salary earners',
+      },
+      {
+        question: 'Who can stand as a guarantor?',
+        answer:
+          'A guarantors must be salary earners.',
+      },
+      {
+        question: 'How much can I apply as a first time customer?',
+        answer:
+          'First time customers can apply for a loan from N10,000 to N50,000',
+      },
+      
+     
+    ];
+    const secondFaq = [
+        {
+            question: 'Do I need a guarantor to apply for the loan?',
+            answer:
+              'Yes, you are required to fill in two guarantors information to be eligible to apply for the loan on the MoMo Credit app',
+          },
+      {
+        question: 'What is the duration of MoMo Credit loan?',
+        answer:
+          '7 days for new customers.',
+      },
+      {
+        question: 'As a returning customer can my loan duration be increased if yes, how many day?',
+        answer:
+          'Returning customers who have good repayment history can have their loan duration extended to 14 days.',
+      },
+      {
+        question: 'How do I register on the MoMo Credit app?',
+        answer:
+          'Simply download the MoMo Credit app from android or ios playstore, install and register.',
+      },
+      {
+        question: 'Will I pay late penalty charges if I am unable to repay my loan within the loan duration?',
+        answer:
+          'Yes, there is a penalty charge on daily basis if you fail to make repayment at the expiration of the loan duration.',
+      },
+      {
+        question: 'What is the benefits of using MoMo Credit app?',
+        answer:
+          'MoMo Credit app is safe, secure and reliable. It is easy to use and it is customer friendly',
+      },
+
+      
+    ];
     return (
-        <main className='w-full h-screen flex flex-col font-poppins'>
+        <main className='w-full h-screen  font-poppins'>
+            <div className="flex flex-col">
             <title>Contact MoMo</title>
 
             <Navbar path={location.pathname} />
@@ -73,9 +161,83 @@ export default function About({ location }) {
 
                         <button type="submit" className="bg-white p-4 w-2/3 rounded-xl text-kashmir-blue">Send Message</button>
                     </div>
+                 
                 </div>
+             
             </div>
-
+          
+    </div>
+      {/* Faq goes here */}
+      <div className="max-w-full ml-10 mb-10 mt-40">
+      <h2 className="text-2xl font-bold mb-6">Frequently Asked Questions</h2>
+      <div className="flex flex-col sm:flex-row">
+      <div className="space-y-4 mx-3 w-full sm:w-1/2">
+        {faqData.map((faq, index) => (
+          <div key={index} className="border border-gray-200 rounded p-4 h-auto">
+            <button
+              className="flex items-center justify-between w-full focus:outline-none"
+              onClick={() => toggleAccordionTwo(index)}
+            >
+              <h3 className="text-lg font-medium h-10">{faq.question}</h3>
+              <svg
+                className={`w-5 h-5 transition-transform duration-300 transform ${
+                  activeIndexTwo === index ? 'rotate-180' : 'rotate-0'
+                }`}
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
+                  d="M19 9l-7 7-7-7"
+                />
+              </svg>
+            </button>
+            {activeIndexTwo === index && (
+              <div className="mt-4 ">
+                <p className="text-gray-700">{faq.answer}</p>
+              </div>
+            )}
+          </div>
+        ))}
+      </div>
+      <div className="space-y-4 w-full sm:w-1/2">
+        {secondFaq.map((faq, index) => (
+          <div key={index} className="border border-gray-200 rounded p-4 h-auto">
+            <button
+              className="flex items-center justify-between w-full focus:outline-none"
+              onClick={() => toggleAccordion(index)}
+            >
+              <h3 className="text-lg font-medium h-10">{faq.question}</h3>
+              <svg
+                className={`w-5 h-5 transition-transform duration-300 transform ${
+                  activeIndex === index ? 'rotate-180' : 'rotate-0'
+                }`}
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
+                  d="M19 9l-7 7-7-7"
+                />
+              </svg>
+            </button>
+            {activeIndex === index && (
+              <div className="mt-4">
+                <p className="text-gray-700">{faq.answer}</p>
+              </div>
+            )}
+          </div>
+        ))}
+      </div>
+      </div>
+    </div>
+    {/* Faq Ends here */}
             <Footer />
         </main>
     );
