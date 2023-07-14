@@ -54,6 +54,11 @@ export default function About({ location }) {
         answer:
           'First time customers can apply for a loan from N10,000 to N50,000',
       },
+      {
+        question: 'How can a user delete their Momo Credit Account?',
+        answer:
+          'If you would like to delete your MoMo Credit account, kindly reach out to us on customer@momocredits.com',
+      },
       
      
     ];
@@ -88,7 +93,6 @@ export default function About({ location }) {
         answer:
           'MoMo Credit app is safe, secure and reliable. It is easy to use and it is customer friendly',
       },
-
       
     ];
     return (
@@ -168,18 +172,18 @@ export default function About({ location }) {
           
     </div>
       {/* Faq goes here */}
-      <div className="max-w-full mx-auto ml-5 mr-5 mb-10 mt-20 sm:mt-40 flex justify-center items-center">
+      <div className="max-w-1/4 mx-auto ml-5 mr-5 mb-10 mt-20 sm:mt-40 flex justify-center items-center">
         <div>
       <h2 className="text-2xl font-bold my-8">Frequently Asked Questions</h2>
-      <div className="flex flex-col sm:flex-row space-x-0 sm:space-x-3">
-      <div className="space-y-4  w-full sm:w-1/2 ">
+      <div className="flex flex-col sm:flex-row space-x-0 sm:space-x-3 max-w-1/4">
+      <div className="space-y-4  w-full sm:w-1/3">
         {faqData.map((faq, index) => (
           <div key={index} className="border border-gray-200 rounded p-4 h-auto">
             <button
               className="flex items-center justify-between w-full focus:outline-none"
               onClick={() => toggleAccordionTwo(index)}
             >
-              <h3 className="text-sm font-medium h-auto sm:h-12 text-left">{faq.question}</h3>
+              <h3 className="text-sm font-medium h-auto sm:h-12 text-left w-full">{faq.question}</h3>
               <svg
                 className={`w-5 h-5 transition-transform duration-300 transform ${
                   activeIndexTwo === index ? 'rotate-180' : 'rotate-0'
@@ -198,20 +202,20 @@ export default function About({ location }) {
             </button>
             {activeIndexTwo === index && (
               <div className="mt-4 ">
-                <p className="text-gray-700">{faq.answer}</p>
+                <p className="text-gray-700 w-full">{faq.answer}</p>
               </div>
             )}
           </div>
         ))}
       </div>
-      <div className="space-y-4 w-full sm:w-1/2 mt-4 sm:mt-0">
+      <div className="space-y-4 w-full sm:w-1/3 mt-4 sm:mt-0">
         {secondFaq.map((faq, index) => (
           <div key={index} className="border border-gray-200 rounded p-4 h-auto">
             <button
               className="flex items-center justify-between w-full focus:outline-none"
               onClick={() => toggleAccordion(index)}
             >
-              <h3 className="text-sm font-medium h-auto sm:h-12 text-left">{faq.question}</h3>
+              <h3 className="text-sm font-medium h-auto sm:h-12 text-left w-full">{faq.question}</h3>
               <svg
                 className={`w-5 h-5 transition-transform duration-300 transform ${
                   activeIndex === index ? 'rotate-180' : 'rotate-0'
@@ -230,7 +234,7 @@ export default function About({ location }) {
             </button>
             {activeIndex === index && (
               <div className="mt-4">
-                <p className="text-gray-700">{faq.answer}</p>
+                <p className="text-gray-700 w-full">{faq.answer}</p>
               </div>
             )}
           </div>
