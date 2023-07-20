@@ -50,6 +50,7 @@ export default function Footer() {
 			</div>
 
 			<StaticImage src="../images/white_star.svg" alt="" className="absolute top-[36px] right-10" />
+			<div className='flex text-sm px-5 text-center'> &copy; 2023 MoMo Credit is a digital money lending company provided by MoMo Credit Limited (RC 1853263), licensed and regulated under Section 5(2) of the Money Lender’s Act (Cap.252) LFN 1990. We empower individuals with credit and micro loan solutions personal and business use. Our operations are based in Nigeria.</div>
 		</div>
 		// <div
 		// 	className='flex flex-col text-center md:text-left gap-y-10 md:flex-row px-10 md:px-10 justify-items-start py-6 gap-x-10 w-full bg-kashmir-blue text-white'
