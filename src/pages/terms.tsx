@@ -326,6 +326,7 @@ export default function Terms({ location }) {
     <li>By accepting this terms and conditions, You hereby covenant to repay any outstanding obligation as and when due. In the event that You do not repay any outstanding obligation as agreed, and such obligation becomes delinquent, MoMo Credit shall have the right to report the delinquent obligation to the Central Bank of Nigeria through the Credit Risk Management System (“CRMS”) or by any means, and request the CBN to exercise its regulatory powers to direct all banks and other financial institutions under its regulatory purview to set-off Your indebtedness from any money standing to Your credit in any bank account and from any other financial assets they may be holding for Your benefit.</li>
     <li>You covenant and warrant that MoMo Credit shall have power to set-off Your indebtedness under this Agreement from all such monies and funds standing to Your credit/benefit in any and all such accounts or from any other financial assets belonging to You and in the custody of any such bank.</li>
     <li>You hereby waive any right of confidentiality whether arising under common law or statue or in any other manner whatsoever and irrevocably agree that You shall not argue to the contrary before any court of law, tribunal, administrative authority or any other body acting in any judicial or quasi-judicial capacity.</li>
+    <li>Loan Duration is for a period of sixty (60) days.</li>
   </ol>
 </div>
 <div className="p-4">
@@ -345,30 +346,30 @@ export default function Terms({ location }) {
     <li>By posting such notice on Our website.</li>
     <li>Through push notifications on Your mobile device</li>
   </ol>
-  <h3 className="font-bold mb-1">Transaction (Service) fees</h3>
+  <h3 className="font-bold mb-1">Transaction fees (Service Charge)</h3>
   <ol className="list-decimal list-inside mb-4">
-    <li>The transaction fee for the use of the MoMo Credit Account shall be up to one percent (1%) or more daily, fixed for the term of the Loan.</li>
+    <li>The transaction fee for the use of the MoMo Credit Account shall be up to twenty-five percent (25%) fixed for the term of the Loan.</li>
     <li>The transaction fee does not preclude Us from charging default fees, a penalty fee and in the event of any dispute arising from this Agreement – the cost of Litigation/Solicitors’ fees</li>
     <li>The transaction fee may be increased or decreased from time to time by MoMo Credit. Such change in Transaction Fee will take effect on Your account following a minimum of fifteen (15) days written notice.</li>
     <li>A total transaction fee of the term of the Loan shall remain applicable in the event that You liquidate the Loan before expiration.</li>
   </ol>
   <h3 className="font-bold mb-1">Event of default</h3>
   <ol className="list-decimal list-inside mb-4">
-    <li>Default in terms of this Agreement will occur if:</li>
-    <ol className="list-lower-alpha list-inside mb-2">
-      <li>You fail to make any scheduled repayment in full on or before the payment due date in accordance with the repayment plan given to You by Us when You take a Loan;</li>
-      <li>Any representation/information, warranty or assurance made or given by You in connection with the application for use of Your Account or any information or documentation supplied by You is later discovered to be materially incorrect; or</li>
-      <li>You do anything which may prejudice our rights in terms of this Agreement or causes Us to suffer any loss or damage.</li>
-    </ol>
-    <li>In the event of any default by You subject to clause 1 above –</li>
-    <ol className="list-lower-alpha list-inside">
-      <li>We may, without notice to or demand on You (which notice or demand You expressly waives), set-off, appropriate or apply any balance outstanding on Your investment account held by Us, or any indebtedness at any time owed by Us to or for Your account, against Your obligations to MoMo Credit, whether or not those obligations have matured.
-        </li>
-        <li>We reserve the right to assign Our right, title and interest under the Agreement to an external Collections Agency who will take all reasonable steps to collect the outstanding Loan amount.</li>
-        <li> We also reserve the right to institute legal proceedings against You and We will inform You before such proceedings commence.</li>
-        <li>You shall be responsible for all legal costs and expenses incurred by Us in attempting to obtain repayment of any outstanding Loan balance owed by You. Interest on any amount which becomes due and payable shall be charged</li>
-        </ol>
-        </ol>
+  <li className="my-4">Default in terms of this Agreement will occur if:</li>
+  <ol className="list-lower-alpha list-inside mb-2">
+    <li>(a) You fail to make any scheduled repayment in full on or before the payment due date in accordance with the repayment plan given to You by Us when You take a Loan;</li>
+    <li>(b) Any representation/information, warranty or assurance made or given by You in connection with the application for use of Your Account or any information or documentation supplied by You is later discovered to be materially incorrect; or</li>
+    <li>(c) You do anything which may prejudice our rights in terms of this Agreement or causes Us to suffer any loss or damage.</li>
+  </ol>
+  <li className="my-4">In the event of any default by You subject to clause 1 above –</li>
+  <ol className="list-lower-alpha list-inside">
+    {/* <li>(a) if you fail to pay any sum outstanding on or before the due date. You shall be charged a late payment fee/ penalty fee of 1% daily accruing till You defray Your total outstanding sum.</li> */}
+    <li>(a) We may, without notice to or demand on You (which notice or demand You expressly waives), set-off, appropriate or apply any balance outstanding on Your investment account held by Us, or any indebtedness at any time owed by Us to or for Your account, against Your obligations to MoMo Credit, whether or not those obligations have matured.</li>
+    <li>(b) We reserve the right to assign Our right, title and interest under the Agreement to an external Collections Agency who will take all reasonable steps to collect the outstanding Loan amount.</li>
+    <li>(c) We also reserve the right to institute legal proceedings against You and We will inform You before such proceedings commence.</li>
+    <li>(d) You shall be responsible for all legal costs and expenses incurred by Us in attempting to obtain repayment of any outstanding Loan balance owed by You. Interest on any amount which becomes due and payable shall be charged</li>
+  </ol>
+</ol>
         </div>
 
         <div className="py-4">

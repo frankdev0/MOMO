@@ -59,6 +59,11 @@ export default function About({ location }) {
         answer:
           'If you would like to delete your MoMo Credit account, kindly reach out to us on customer@momocredits.com',
       },
+      {
+        question: 'What is the duration?',
+        answer:
+          '91 days - 360 days',
+      },
       
      
     ];
@@ -92,6 +97,11 @@ export default function About({ location }) {
         question: 'What is the benefits of using MoMo Credit app?',
         answer:
           'MoMo Credit app is safe, secure and reliable. It is easy to use and it is customer friendly',
+      },
+      {
+        question: 'As a returning customer, can my date be extended?',
+        answer:
+          'Yes, if you have a good repayment history you qualify for longer loan terms up to 365 days',
       },
       
     ];
@@ -176,7 +186,7 @@ export default function About({ location }) {
         <div>
       <h2 className="text-2xl font-bold my-8">Frequently Asked Questions</h2>
       <div className="flex flex-col sm:flex-row space-x-0 sm:space-x-3 max-w-1/4">
-      <div className="space-y-4  w-full sm:w-1/3">
+      <div className="space-y-4  w-full sm:w-1/3" style={{ width: '100%', maxWidth: '400px' }}>
         {faqData.map((faq, index) => (
           <div key={index} className="border border-gray-200 rounded p-4 h-auto">
             <button
@@ -208,7 +218,8 @@ export default function About({ location }) {
           </div>
         ))}
       </div>
-      <div className="space-y-4 w-full sm:w-1/3 mt-4 sm:mt-0">
+
+      <div className="space-y-4 w-full sm:w-1/3 mt-4 sm:mt-0" style={{ width: '100%', maxWidth: '400px' }}>
         {secondFaq.map((faq, index) => (
           <div key={index} className="border border-gray-200 rounded p-4 h-auto">
             <button
