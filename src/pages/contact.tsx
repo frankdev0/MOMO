@@ -2,6 +2,8 @@ import { StaticImage } from "gatsby-plugin-image";
 import React, {useState} from "react";
 import { Carousel } from "react-responsive-carousel";
 import { Navbar, Footer, Testimonial } from "../components";
+import { useForm } from "react-hook-form";
+
 
 export default function About({ location }) {
 
@@ -22,6 +24,19 @@ export default function About({ location }) {
         setActiveIndex(index);
       }
     };
+
+    const {
+    register,
+    trigger,
+    formState: { errors },
+  } = useForm();
+
+  const handleSubmit = async (e) => {
+    const isValid = await trigger();
+    if (!isValid) {
+      e.preventDefault();
+    }
+  };
   
     const faqData = [
       {
@@ -144,9 +159,9 @@ export default function About({ location }) {
 
 
                         <div className='flex flex-row gap-x-10 mt-4'>
-                            <div>
+                            {/* <div>
                                 <StaticImage src="../images/fb.svg" alt="" />
-                            </div>
+                            </div> */}
 
                             <a href="https://instagram.com/momocreditsng?igshid=ZWIzMWE5ZmU3Zg==">
                                 <div>
@@ -158,24 +173,26 @@ export default function About({ location }) {
                                 <StaticImage src="../images/ig.svg" alt="" />
                             </div> */}
 
-                            <div>
+                            {/* <div>
                                 <StaticImage src="../images/twitter.svg" alt="" />
-                            </div>
+                            </div> */}
                         </div>
                     </div>
+                      <form action="https://getform.io/f/69e1d589-9df7-48d1-aba9-afea52d317cb" className="flex flex-col bg-kashmir-blue rounded-xl mt-20 md:mt-44 lg:mt-20  md:px-16 py-10 justify-center md:w-4/5 2xl:w-1/2 md:mx-auto md:mr-16 h-4/5 gap-y-4 z-50" method="POST"  onSubmit={handleSubmit}>
+                    
+                        <input type="text"  name="Full_Name" id="" className="rounded-xl p-4" placeholder="Full Name" />
+                          {/* {...register("name", {required: true, maxLength: 100,})} */}
+                         
 
-                    <div className='flex flex-col bg-kashmir-blue rounded-xl mt-20 md:mt-44 lg:mt-20 px-10 md:px-16 py-10 justify-center md:w-4/5 2xl:w-1/2 md:mx-auto md:mr-16 h-4/5 gap-y-4 z-50'>
-                        <input type="text" name="" id="" className="rounded-xl p-4" placeholder="Full Name" />
+                        <input type="phone" name="Phone_Number" id="" className="rounded-xl p-4" placeholder="Phone number" />
 
-                        <input type="phone" name="" id="" className="rounded-xl p-4" placeholder="Phone number" />
+                        <input type="email" name="Email_Address" id="" className="rounded-xl p-4" placeholder="Email address" />
 
-                        <input type="email" name="" id="" className="rounded-xl p-4" placeholder="Email address" />
-
-                        <textarea placeholder="How can we help you?" className="rounded-xl p-4 overflow-hidden" name="" id="" cols={30} rows={10}></textarea>
+                        <textarea placeholder="How can we help you?" className="rounded-xl p-4 overflow-hidden" name="comment" id="" cols={30} rows={10}></textarea>
 
                         <button type="submit" className="bg-white p-4 w-2/3 rounded-xl text-kashmir-blue">Send Message</button>
-                    </div>
-                 
+                   
+                 </form>
                 </div>
              
             </div>
