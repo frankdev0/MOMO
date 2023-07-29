@@ -352,6 +352,8 @@ export default function Terms({ location }) {
     <li>The transaction fee does not preclude Us from charging default fees, a penalty fee and in the event of any dispute arising from this Agreement – the cost of Litigation/Solicitors’ fees</li>
     <li>The transaction fee may be increased or decreased from time to time by MoMo Credit. Such change in Transaction Fee will take effect on Your account following a minimum of fifteen (15) days written notice.</li>
     <li>A total transaction fee of the term of the Loan shall remain applicable in the event that You liquidate the Loan before expiration.</li>
+    <li>The APR is from 12% to 32% per annum</li>
+    <p className="mt-4">Example: if you choose 6-month loan and borrow  N100,000, MoMo Credit charges an interest rate of 2% per month. Borrow NGN interest rate: 12% and APR is 24%. 180 days repayment of N12000. Total amount payment is N112000.</p>
   </ol>
   <h3 className="font-bold mb-1">Event of default</h3>
   <ol className="list-decimal list-inside mb-4">

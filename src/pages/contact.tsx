@@ -49,11 +49,7 @@ export default function About({ location }) {
         answer:
           'MoMo Credit gives you access to soft loan, business loan and education loan. With Momo Credit you are just a click away from accessing that urgent funds to finance your urgent needs.',
       },
-      {
-        question: 'Is there interest or any charges on using the MoMo Credit loan?',
-        answer:
-          'MoMo Credit loan is an interest free loan, but there is a service fee charge for the usage of the platform.',
-      },
+     
       {
         question: 'Who can apply for loan on MoMo Credit app?',
         answer:
