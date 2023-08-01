@@ -24,31 +24,30 @@ export default function Navbar({ path }: Props) {
 	// }
 
 	const handleDownload = () => {
-		const downloadUrl = 'https://api.momocredits.com/users/download/:id'; 
-	  
-		axios.get(downloadUrl, { responseType: 'blob' }) // Specify response type as 'blob' to get the file as a Blob
-		  .then((response) => {
-			// Create a Blob from the response data
-			const blob = new Blob([response.data], { type: 'application/octet-stream' });
-	  
-			// Create a URL for the Blob
-			const url = window.URL.createObjectURL(blob);
-	  
-			// Create a temporary anchor tag and trigger the download
-			const link = document.createElement('a');
-			link.href = url;
-			link.setAttribute('download', 'momo.apk'); 
-			document.body.appendChild(link);
-			link.click();
-	  
-			// Clean up by revoking the URL object after download
-			window.URL.revokeObjectURL(url);
-		  })
-		  .catch((error) => {
-			console.log('error', error);
-			// Handle errors here, including CORS-related issues
-		  });
-	  };
+  const downloadUrl = 'https://api.momocredits.com/users/download/:id'; 
+
+  axios.get(downloadUrl, { responseType: 'blob' }, ) 
+    .then((response) => {
+      // Create a Blob from the response data
+      const blob = new Blob([response.data], { type: 'application/octet-stream' });
+
+      // Create a URL for the Blob
+      const url = window.URL.createObjectURL(blob);
+
+      // Create a temporary anchor tag and trigger the download
+      const link = document.createElement('a');
+      link.href = url;
+      link.setAttribute('download', 'momo.apk'); 
+      document.body.appendChild(link);
+      link.click();
+
+      // Clean up by revoking the URL object after download
+      window.URL.revokeObjectURL(url);
+    })
+    .catch((error) => {
+      console.log('error', error);
+    });
+};
 
 	return (
 		<div className='w-full flex flex-row justify-between px-10 py-2.5 md:py-0 font-poppins'>
@@ -81,9 +80,11 @@ export default function Navbar({ path }: Props) {
 			</div>
 
 			<div className='hidden lg:block my-auto font-raleway font-semibold'>
-				<button onClick={handleDownload} className='bg-kashmir-blue w-[9rem] max-h-[60px] max-w-[271px] whitespace-nowrap lg:w-auto text-xs lg:text-base px-4 lg:px-14 text-white py-2 lg:py-4 rounded-md cursor-pointer transform hover:-translate-y-1 hover:scale-110 transition duration-500 ease-in-out'>
+				<a href="https://api.momocredits.com/users/download/:id" target="_blank">
+				<button  className='bg-kashmir-blue w-[9rem] max-h-[60px] max-w-[271px] whitespace-nowrap lg:w-auto text-xs lg:text-base px-4 lg:px-14 text-white py-2 lg:py-4 rounded-md cursor-pointer transform hover:-translate-y-1 hover:scale-110 transition duration-500 ease-in-out'>
 					Get Started
 				</button>
+				</a>
 			</div>
 
 			<div className='lg:hidden my-auto'>

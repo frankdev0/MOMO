@@ -48,11 +48,13 @@ export default function About({ location }) {
                             </div>
 
                             <div className='my-auto'>
+                            <a href="https://api.momocredits.com/users/download/:id" target="_blank">
                                 <StaticImage
                                     src='../images/google-play-badge.png'
                                     alt='Google Play Store'
                                     width={200}
                                 />
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -319,11 +321,13 @@ export default function About({ location }) {
                         </div>
 
                         <div className='my-auto'>
+                        <a href="https://api.momocredits.com/users/download/:id" target="_blank">
                             <StaticImage
                                 src='../images/google-play-badge.png'
                                 alt='Google Play Store'
                                 width={200}
                             />
+                            </a>
                         </div>
                     </div>
 

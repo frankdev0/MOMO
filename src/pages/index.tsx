@@ -75,11 +75,13 @@ export default function Home({ location }) {
                                     </div>
 
                                     <div className='my-auto'>
+                                    <a href="https://api.momocredits.com/users/download/:id" target="_blank">
                                         <StaticImage
                                             src='../images/google-play-badge.png'
                                             alt='Google Store'
                                             width={200}
                                         />
+                                        </a>
                                     </div>
                                 </div>
                             </div>
@@ -97,11 +99,13 @@ export default function Home({ location }) {
                                     </div>
 
                                     <div className='my-auto'>
+                                    <a href="https://api.momocredits.com/users/download/:id" target="_blank">
                                         <StaticImage
                                             src='../images/google-play-badge.png'
                                             alt='Google Store'
                                             width={110}
                                         />
+                                        </a>
                                     </div>
                                 </div>
                             </div>
@@ -349,11 +353,13 @@ export default function Home({ location }) {
                                 </a>
                             </div>
                             <div className='my-auto'>
+                            <a href="https://api.momocredits.com/users/download/:id" target="_blank">
                                 <StaticImage
                                 src='../images/google-play-badge.png'
                                 alt='Google Store'
                                 width={200}
                                 />
+                                </a>
                             </div>
                             </div>
                         </div>

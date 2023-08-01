@@ -1,5 +1,6 @@
 {
   "name": "momo_frontend",
+  "proxy": "https://api.momocredits.com",
   "version": "1.0.0",
   "private": true,
   "description": "momo_frontend",
