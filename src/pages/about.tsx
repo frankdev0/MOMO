@@ -38,17 +38,19 @@ export default function About({ location }) {
                         </div>
                         <div className='flex flex-row gap-x-2 -mt-8'>
                             <div>
+                            <a href='https://apps.apple.com/ng/app/momo-credit/id6450298959'>
                                 <StaticImage
                                     src='../images/app.svg'
                                     alt='Apple Logo'
                                     width={180}
                                 />
+                                </a>
                             </div>
 
                             <div className='my-auto'>
                                 <StaticImage
                                     src='../images/google-play-badge.png'
-                                    alt='Apple Logo'
+                                    alt='Google Play Store'
                                     width={200}
                                 />
                             </div>
@@ -307,17 +309,19 @@ export default function About({ location }) {
 
                     <div className='flex flex-row gap-x-2 -mt-6 md:-mt-12'>
                         <div>
+                        <a href='https://apps.apple.com/ng/app/momo-credit/id6450298959'>
                             <StaticImage
                                 src='../images/app.svg'
                                 alt='Apple Logo'
                                 width={180}
                             />
+                            </a>
                         </div>
 
                         <div className='my-auto'>
                             <StaticImage
                                 src='../images/google-play-badge.png'
-                                alt='Apple Logo'
+                                alt='Google Play Store'
                                 width={200}
                             />
                         </div>
