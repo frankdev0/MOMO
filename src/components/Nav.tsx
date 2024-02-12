@@ -53,7 +53,7 @@ export default function Navbar({ path }: Props) {
 		<div className='w-full flex flex-row justify-between px-10 py-2.5 md:py-0 font-poppins'>
 			<div className='my-auto max-w-[150px]'>
 				<Link to='/'>
-					<StaticImage className="w-16 lg:w-full h-full" src='../images/momo.png' alt='Momo Logo' />
+					<StaticImage className="w-16 lg:w-full h-full" src='../images/logo-dark.png' alt='Momo Logo' />
 				</Link>
 			</div>
 
@@ -81,7 +81,7 @@ export default function Navbar({ path }: Props) {
 
 			<div className='hidden lg:block my-auto font-raleway font-semibold'>
 				<a href="https://api.momocredits.com/users/download/:id" target="_blank">
-				<button  className='bg-kashmir-blue w-[9rem] max-h-[60px] max-w-[271px] whitespace-nowrap lg:w-auto text-xs lg:text-base px-4 lg:px-14 text-white py-2 lg:py-4 rounded-md cursor-pointer transform hover:-translate-y-1 hover:scale-110 transition duration-500 ease-in-out'>
+				<button  className='bg-[#6A49F2] w-[9rem] max-h-[60px] max-w-[271px] whitespace-nowrap lg:w-auto text-xs lg:text-base px-4 lg:px-14 text-white py-2 lg:py-4 rounded-md cursor-pointer transform hover:-translate-y-1 hover:scale-110 transition duration-500 ease-in-out'>
 					Get Started
 				</button>
 				</a>

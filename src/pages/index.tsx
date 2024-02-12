@@ -55,10 +55,11 @@ export default function Home({ location }) {
                     <div className="relative mt-10 mx-auto md:mx-0 inset-0 md:inset-y-1/4 lg:inset-0 lg:my-auto flex justify-center md:justify-start p-10 lg:mr-28 text-dark text-center md:text-left">
                         <div className='flex flex-col inset-y-[-64px] absolute px-10 lg:px-0 lg:w-1/3 gap-y-2 md:gap-y-4'>
                             <div className="md:text-5xl   pt-11 lg:pt-0">Loan Up to</div>
-                            <div className="md:text-5xl  mb-1">5 Million Naira</div>
+                            <div className="md:text-5xl  mb-1">5 Hundred Thousand Naira</div>
 
                             <div className="text-[0.65rem] md:text-base w-screen md:w-auto px-10 md:px-0 mb-16">
-                                Get up to 5 million Naira with MoMo Credit. It's easy and with no collateral. You can build your credit worthiness to 5,000,000. With MoMo Credit you are just a click away from getting that money to sort out your pressing needs.’
+                                Loan as low as 10,000 and as high as 500,000 with sportycredit. We specialzie in providing Nigerians citizens business loans to build their financial horizone of their businesses.
+                               ` {/* Get up to 5 million Naira with MoMo Credit. It's easy and with no collateral. You can build your credit worthiness to 5,000,000. With MoMo Credit you are just a click away from getting that money to sort out your pressing needs.’` */}
                             </div>
 
                             <div className="hidden w-full md:flex -mt-18 md:-mt-14">
@@ -159,11 +160,13 @@ export default function Home({ location }) {
 
                 <div className='flex flex-col gap-y-2 md:ml-10 mt-10 px-8 text-center md:text-left md:pr-40'>
                     <div className='capitalize text-2xl md:text-3xl font-medium min-w-[300px]'>
-                        With MoMo you can quickly sort out urgent bills
+                        {/* With MoMo you can quickly sort out urgent bills */}
+                        Urgent Cash Within 5mins is Guaranteed
                     </div>
                     <div className='text-justify mt-2 text-[#808080]'>
-                        MoMo Credit offers loan for your urgent bills.
-                        With MoMo Credit you can get loan to pay for your DSTV subscription, pay for your light bill, etc...
+                        You dont need to beg for urgent cash anymore, just apply on sportycredit and get credited instantly.
+                        {/* MoMo Credit offers loan for your urgent bills.
+                        With MoMo Credit you can get loan to pay for your DSTV subscription, pay for your light bill, etc... */}
                     </div>
                 </div>
 
@@ -188,8 +191,9 @@ export default function Home({ location }) {
 
 
             <div className='flex flex-col md:px-40 lg:px-40 py-20 px-6'>
-                <div className='capitalize text-kashmir-blue text-center text-2xl md:text-3xl font-medium pb-2'>
-                    Benefits of using the Momo Credit App
+                <div className='capitalize text-[#6A49F2] text-center text-2xl md:text-3xl font-medium pb-2'>
+                    {/* Benefits of using the Momo Credit App */}
+                    WHY IS SPORTYCREDIT BETTER THAN LOAN SHARKS
                 </div>
 
                 {/* <div className='grid grid-cols-1 md:grid-cols-3 mt-6 gap-x-6'>
@@ -265,11 +269,13 @@ export default function Home({ location }) {
                             </div>
 
                             <div className='flex flex-col gap-y-2 text-center'>
-                                <div className='text-xl md:text-xl text-kashmir-blue font-semibold'>
-                                    No Hidden Charges
+                                <div className='text-xl md:text-xl text-[#6A49F2] font-semibold'>
+                                    {/* No Hidden Charges */}
+                                    FAST LOAN DISBURSEMENT
                                 </div>
                                 <div className="text-[#808080] text-center">
-                                    With Momo Credit there is no hidden charges, no collateral.
+                                    {/* With Momo Credit there is no hidden charges, no collateral. */}
+                                    Get your loan disbursed in 5mins after a quick stressfree application.
                                 </div>
                             </div>
                         </div>
@@ -286,11 +292,12 @@ export default function Home({ location }) {
                             </div>
 
                             <div className='flex flex-col gap-y-2 text-center'>
-                                <div className='text-xl md:text-xl text-kashmir-blue font-semibold'>
-                                    Secure and Safe
+                                <div className='text-xl md:text-xl text-[#6A49F2] font-semibold'>
+                                   BUSINESS LOAN OPPORTUNITY
                                 </div>
                                 <div className="text-[#808080] text-center">
-                                    MoMo Credit is safe, secure and easy to use.
+                                    Gain access to our high business loan offer of over 200,000 by repaying before due date.
+                                    {/* MoMo Credit is safe, secure and easy to use. */}
                                     <div className="invisible">This is just a placeholder</div>
                                 </div>
                             </div>
@@ -308,11 +315,12 @@ export default function Home({ location }) {
                         </div>
 
                         <div className='flex flex-col gap-y-2 text-center'>
-                            <div className='text-xl md:text-xl text-kashmir-blue font-semibold'>
-                                Flexible Terms
+                            <div className='text-xl md:text-xl text-[#6A49F2] font-semibold'>
+                                GOOD LOAN COLLECTION ETHICS
                             </div>
                             <div className="text-[#808080] text-center">
-                                MoMo Credit has the most customer friendly terms and conditions any customer can ask for.
+                                {/* MoMo Credit has the most customer friendly terms and conditions any customer can ask for. */}
+                                We are dedicated to servcie of our customers as we are binded by Nigerian laws to carry out our loan collection using ethical method.
                             </div>
                         </div>
                     </div>
@@ -337,10 +345,12 @@ export default function Home({ location }) {
                    
                         <div className='flex flex-col items-center gap-y-4 md:ml-20 p-10 md:text-left text-center md:w-1/2 md:min-w-[500px]'>
                             <div className='text-2xl md:text-3xl capitalize font-medium'>
-                            Say Goodbye to "Urgent 2K"
+                            {/* Say Goodbye to "Urgent 2K" */}
+                            WITH SPORTYCREDIT YOUR URGENT 10K IS ASSURED
                             </div>
                             <div className='md:w-2/3'>
-                            With MoMo Credit no more calling anybody to send you "urgent 2k" because MoMo Credit have you covered and just a click away.
+                            {/* With MoMo Credit no more calling anybody to send you "urgent 2k" because MoMo Credit have you covered and just a click away. */}
+                            You do not need to go through the embarrsasment of begging relatives for money. A simple application processs with sportycredit gives you the amount you want with ease.
                             </div>
                             <div className='flex flex-row gap-x-2 -mt-8'>
                             <div>

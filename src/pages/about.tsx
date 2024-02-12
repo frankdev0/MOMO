@@ -31,10 +31,15 @@ export default function About({ location }) {
                 <div className='flex flex-row md:ml-20 mb-48 md:mb-0'>
                     <div className='flex flex-col gap-y-4 lg:ml-20 md:mt-10 md:text-left text-center'>
                         <div className='text-3xl md:text-4xl 2xl:text-6xl capitalize'>
-                            What Makes MoMo Stand Out
+                            WHAT MAKES SPORTYCREDIT TOPNOTCH
                         </div>
                         <div className='text-[#808080] 2xl:text-xl'>
-                            We provide fast low interest loans. You can count on us to meet your urgent financial needs.
+                            {/* We provide fast low interest loans. You can count on us to meet your urgent financial needs. */}
+                            <ul>
+                            <li>(1) Our fast loan approval rate</li>
+                                <li>(2) our expertise customer service.</li>
+                                <li>(3) Access to business loans of up to 500,000.</li>
+                                </ul>
                         </div>
                         <div className='flex flex-row gap-x-2 -mt-8'>
                             <div>
@@ -69,9 +74,9 @@ export default function About({ location }) {
                 </div>
             </div>
 
-            <div className="h-auto relative -mt-52 md:mt-0 lg:-mt-20 xl:-mt-52 2xl:-mt-40">
+            <div className="h-auto relative -mt-52 md:mt-0 lg:-mt-20 xl:-mt-52 2xl:-mt-40 ">
                 <div className="absolute">
-                    <StaticImage className="z-0 w-screen py-24 h-[50rem] md:h-auto" src="../images/blue_rectangle.png" alt="" />
+                    <StaticImage className="z-0 w-screen py-24 h-[50rem] md:h-auto" src="../images/blue.png" alt="" />
                 </div>
                 <div className='flex flex:col md:flex-row text-white w-full gap-x-10 overflow-hidden -mt-10 md:mt-0'>
                     <div className='flex flex-col my-auto py-40 px-10 md:px-20'>
@@ -86,7 +91,8 @@ export default function About({ location }) {
                         </div>
 
                         <div className="hidden lg:flex z-50 text-justify w-2/3 mt-4">
-                            A quick onboarding process that includes sizable payments made in a short period of time. Momo Loan App aims to assist users achieve their personal and business goals by providing digital financial services. Our platform is built specially for you… it is seamless, and easy to navigate.
+                            {/* A quick onboarding process that includes sizable payments made in a short period of time. Momo Loan App aims to assist users achieve their personal and business goals by providing digital financial services. Our platform is built specially for you… it is seamless, and easy to navigate. */}
+                            Nothing excites our customers than our fast approval rate. You could actually get your loan disbursed in 5mins. its that fast.
                         </div>
 
                         <div className='flex flex-row gap-x-20 2xl:gap-x-60'>
@@ -300,12 +306,14 @@ export default function About({ location }) {
             <div className='flex flex-col md:flex-row mx-auto gap-x-10 my-10 md:my-28 px-20 relative'>
                 <div className='flex flex-col gap-y-4'>
                     <div className="text-xl md:text-3xl font-medium md:w-4/5">
-                        Start Lending Money
-                        to Sort Out Important Bills
+                        {/* Start Lending Money
+                        to Sort Out Important Bills */}
+                        START GRWOING YOUR BUSINESS TODAY THROUGH OUR BUSINESS LOAN OFFER
                     </div>
 
                     <div className="text-[#727272]">
-                        With our simple and easy loan application process, you can access loans with just one-clicks. Download Now.
+                        {/* With our simple and easy loan application process, you can access loans with just one-clicks. Download Now. */}
+                        You are just a click away from growing your business. Download sportycredit to get started
                     </div>
 
 

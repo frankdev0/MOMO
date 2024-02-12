@@ -312,11 +312,11 @@ export default function Home({ location }) {
 				// showIndicators
 				>
 					<div className=''>
-						<Testimonial />
+						{/* <Testimonial /> */}
 					</div>
 
 					<div className=''>
-						<Testimonial />
+						{/* <Testimonial /> */}
 					</div>
 				</Carousel>
 			</div>

@@ -174,7 +174,7 @@ export default function About({ location }) {
                             </div> */}
                         </div>
                     </div>
-                      <form action="https://getform.io/f/69e1d589-9df7-48d1-aba9-afea52d317cb" className="flex flex-col bg-kashmir-blue rounded-xl mt-20 md:mt-44 lg:mt-20  md:px-16 py-10 justify-center md:w-4/5 2xl:w-1/2 md:mx-auto md:mr-16 h-4/5 gap-y-4 z-50" method="POST"  onSubmit={handleSubmit}>
+                      <form action="https://getform.io/f/69e1d589-9df7-48d1-aba9-afea52d317cb" className="flex flex-col bg-[#6A49F2] rounded-xl mt-20 md:mt-44 lg:mt-20  md:px-16 py-10 justify-center md:w-4/5 2xl:w-1/2 md:mx-auto md:mr-16 h-4/5 gap-y-4 z-50" method="POST"  onSubmit={handleSubmit}>
                     
                         <input type="text"  name="Full_Name" id="" className="rounded-xl p-4" placeholder="Full Name" />
                           {/* {...register("name", {required: true, maxLength: 100,})} */}

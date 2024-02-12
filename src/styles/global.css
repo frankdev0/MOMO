@@ -62,11 +62,12 @@
 }
 
 #urgent2k {
-    background-image: url('../images/momor2.svg');
+    background-image: url('../images/sporty.svg');
     background-size: cover;
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: 100%;
+    fill: #6A49F2;
     /* animation-duration: 10s;
     animation-name: slidein; */
 }
