@@ -9,7 +9,8 @@ module.exports = {
 		{
 			resolve: "gatsby-plugin-manifest",
 			options: {
-				icon: "src/images/momoicon.png",
+				icon: "src/images/logo-dark.png",
+				sizes: "128x128",
 			},
 		},
 		"gatsby-plugin-sharp",
