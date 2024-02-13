@@ -53,7 +53,7 @@ export default function Navbar({ path }: Props) {
 		<div className='w-full flex flex-row justify-between px-10 py-2.5 md:py-0 font-poppins'>
 			<div className='my-auto max-w-[150px]'>
 				<Link to='/'>
-					<StaticImage className="w-16 lg:w-full h-full" src='../images/logo-dark.png' alt='Momo Logo' />
+					<StaticImage className="w-[110px] lg:w-full h-full" src='../images/logo-dark.png' alt='Momo Logo' />
 				</Link>
 			</div>
 
@@ -117,7 +117,8 @@ export default function Navbar({ path }: Props) {
 						<div className='rounded border bg-white p-5 shadow-sm'>
 							<div className='mb-4 flex items-center justify-between'>
 								<div>
-									<StaticImage src="../images/newlogo.png" alt="Logo" width={50} />
+								
+									<StaticImage className="w-20 lg:w-full h-full" src='../images/logo-dark.png' alt='Momo Logo' />
 								</div>
 								<div>
 									<button

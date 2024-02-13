@@ -27,7 +27,7 @@ export default function Home({ location }) {
 
     return (
         <main className='w-full h-screen flex flex-col overflow-x-hidden font-raleway'>
-            <title>MoMo Home</title>
+            <title>Sportycredit Home</title>
 
             <Navbar path={location.pathname} />
 
@@ -256,7 +256,7 @@ export default function Home({ location }) {
                     </div>
                 </div> */}
 
-                <div className="flex flex-col lg:flex-row -mx-4 overflow-hidden">
+                <div className="flex flex-col lg:flex-row -mx-4 overflow-hidden mt-5">
 
                     <div className="my-4 px-4 overflow-hidden sm:w-full md:w-full lg:w-1/3 xl:w-1/3">
                         <div className='flex flex-col gap-y-4'>
@@ -304,7 +304,7 @@ export default function Home({ location }) {
                         </div>
                     </div>
 
-                    <div className="my-4 px-4 overflow-hidden sm:w-full md:w-full lg:w-1/3 xl:w-1/3">
+                    <div className="my-4 px-4 overflow-hidden sm:w-full md:w-full lg:w-1/3 xl:w-[35%]">
                     <div className='flex flex-col gap-y-4'>
                         <div className='m-auto'>
                             <StaticImage
@@ -344,7 +344,7 @@ export default function Home({ location }) {
 
                    
                         <div className='flex flex-col items-center gap-y-4 md:ml-20 p-10 md:text-left text-center md:w-1/2 md:min-w-[500px]'>
-                            <div className='text-2xl md:text-3xl capitalize font-medium'>
+                            <div className='text-2xl md:text-3xl capitalize font-medium xl:w-[70%]'>
                             {/* Say Goodbye to "Urgent 2K" */}
                             WITH SPORTYCREDIT YOUR URGENT 10K IS ASSURED
                             </div>

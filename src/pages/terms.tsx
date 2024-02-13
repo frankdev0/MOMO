@@ -25,7 +25,7 @@ export default function Terms({ location }) {
             <div className='flex flex-col px-10 lg:px-40 mt-6 mb-20 text-justify'>
             <div className='flex flex-col'>
                     <div className="mt-4 text-2xl lg:text-3xl mx-0">
-                    OUR TERMS AND CONDITIONS:
+                     TERMS AND CONDITIONS:
                     </div>
 
                     <div className="mt-2">
@@ -59,11 +59,11 @@ export default function Terms({ location }) {
                 </div>
                 <div className='flex flex-col'>
                     <div className="mt-4 text-2xl lg:text-3xl mx-0">
-                     USE OF THE APP AND SERVICES
+                    USE OF THE APP AND SERVICES
                     </div>
 
                     <div className="mt-2">
-                     The App and the Services offered by us can only be utilized by persons over the age of 18 and only for the purpose of accessing our Services.
+                    The App and the Services offered by us can only be utilized by persons over the age of 18 and only for the purpose of accessing our Services.
                     </div>
                     <div className="mt-2">
                     we reserves the right (in its sole and absolute discretion) to provide, refuse to provide any of the Services and/or vary the terms of the provision of any Service depending on its assessment of your credit profile from time to time.

@@ -311,7 +311,7 @@ export default function About({ location }) {
                         START GRWOING YOUR BUSINESS TODAY THROUGH OUR BUSINESS LOAN OFFER
                     </div>
 
-                    <div className="text-[#727272]">
+                    <div className="text-[#727272] xl:w-2/3">
                         {/* With our simple and easy loan application process, you can access loans with just one-clicks. Download Now. */}
                         You are just a click away from growing your business. Download sportycredit to get started
                     </div>
