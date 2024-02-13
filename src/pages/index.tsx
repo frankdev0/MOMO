@@ -121,7 +121,7 @@ export default function Home({ location }) {
                 <div className='flex flex-row px-20 mt-20'>
                     <div className="md:hidden">
                         <StaticImage
-                            src='../images/bigiphonex.png'
+                            src='../images/bigiphonexx.png'
                             alt='iPhone1'
                             // width={550}
                             className='w-[246px] h-[502px]'
@@ -142,7 +142,7 @@ export default function Home({ location }) {
 
                 <div className="hidden md:block">
                     <StaticImage
-                        src='../images/bigiphonex.png'
+                        src='../images/bigiphonexx.png'
                         alt='iPhone1'
                         // width={550}
                         className='w-[246px] h-[502px]'
@@ -151,7 +151,7 @@ export default function Home({ location }) {
 
                 <div className='hidden md:block mt-28 ml-6'>
                     <StaticImage
-                        src='../images/iphonesmall.png'
+                        src='../images/iphonesmalll.png'
                         alt='iPhone2'
                         // width={500}
                         className='w-[183px] h-[374px]'
@@ -336,7 +336,7 @@ export default function Home({ location }) {
                 <div className='flex flex-col md:flex-row justify-center w-full mx-auto'>
                     <div className='flex flex-col items-center gap-y-4 md:ml-20  md:text-left text-center ' id="bounce">
                         <StaticImage
-                            src='../images/bouncingiphonex.png'
+                            src='../images/bouncingiphonexx.png'
                             alt=''
                         width={350}
                         />

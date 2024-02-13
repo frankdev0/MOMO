@@ -67,7 +67,7 @@ export default function About({ location }) {
 
                 <div className='px-10 md:px-0 md:mr-28 my-2' id="bounce">
                     <StaticImage
-                        src='../images/twoiphones.png'
+                        src='../images/grouped.png'
                         alt=''
                         width={800}
                     />
