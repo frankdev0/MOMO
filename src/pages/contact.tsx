@@ -40,20 +40,20 @@ export default function About({ location }) {
   
     const faqData = [
       {
-        question: 'What is MoMo Credit?',
+        question: 'What is Sportycredit?',
         answer:
-          'MoMo Credit is a loan app that allows you apply for a short term loan through the MoMo Credit app.',
+          'Sportycredit is a loan app that allows you apply for a short term loan through the Sportycredit app.',
       },
       {
-        question: 'Why should I use MoMo Credit app?',
+        question: 'Why should I use Sportycredit app?',
         answer:
-          'MoMo Credit gives you access to soft loan, business loan and education loan. With Momo Credit you are just a click away from accessing that urgent funds to finance your urgent needs.',
+          'Sportycredit gives you access to soft loan, business loan and education loan. With Sportycredit you are just a click away from accessing that urgent funds to finance your urgent needs.',
       },
      
       {
-        question: 'Who can apply for loan on MoMo Credit app?',
+        question: 'Who can apply for loan on Sportycredit app?',
         answer:
-          'Only salary earners with proof of their monthly salaries can apply for loans on MoMo Credit app. MoMo Credit is strictly for salary earners',
+          'Only salary earners with proof of their monthly salaries can apply for loans on Sportycredit app. Sportycredit is strictly for salary earners',
       },
       {
         question: 'Who can stand as a guarantor?',
@@ -66,9 +66,9 @@ export default function About({ location }) {
           'First time customers can apply for a loan from N10,000 to N50,000',
       },
       {
-        question: 'How can a user delete their Momo Credit Account?',
+        question: 'How can a user delete their Sportycredit Account?',
         answer:
-          'If you would like to delete your MoMo Credit account, kindly reach out to us on customer@momocredits.com',
+          'If you would like to delete your Sportycredit account, kindly reach out to us on customer@sportycredit.com',
       },
       {
         question: 'What is the duration?',
@@ -82,10 +82,10 @@ export default function About({ location }) {
         {
             question: 'Do I need a guarantor to apply for the loan?',
             answer:
-              'Yes, you are required to fill in two guarantors information to be eligible to apply for the loan on the MoMo Credit app',
+              'Yes, you are required to fill in two guarantors information to be eligible to apply for the loan on the Sportycredit app',
           },
       {
-        question: 'What is the duration of MoMo Credit loan?',
+        question: 'What is the duration of Sportycredit loan?',
         answer:
           '7 days for new customers.',
       },
@@ -95,9 +95,9 @@ export default function About({ location }) {
           'Returning customers who have good repayment history can have their loan duration extended to 14 days.',
       },
       {
-        question: 'How do I register on the MoMo Credit app?',
+        question: 'How do I register on the Sportycredit app?',
         answer:
-          'Simply download the MoMo Credit app from android or ios playstore, install and register.',
+          'Simply download the Sportycredit app from android or ios playstore, install and register.',
       },
       {
         question: 'Will I pay late penalty charges if I am unable to repay my loan within the loan duration?',
@@ -105,9 +105,9 @@ export default function About({ location }) {
           'Yes, there is a penalty charge on daily basis if you fail to make repayment at the expiration of the loan duration.',
       },
       {
-        question: 'What is the benefits of using MoMo Credit app?',
+        question: 'What is the benefits of using Sportycredit app?',
         answer:
-          'MoMo Credit app is safe, secure and reliable. It is easy to use and it is customer friendly',
+          'Sportycredit app is safe, secure and reliable. It is easy to use and it is customer friendly',
       },
       {
         question: 'As a returning customer, can my date be extended?',
@@ -119,7 +119,7 @@ export default function About({ location }) {
     return (
         <main className='w-full h-screen  font-poppins'>
             <div className="flex flex-col">
-            <title>Contact MoMo</title>
+            <title>Contact Sportycredit</title>
 
             <Navbar path={location.pathname} />
 
@@ -143,14 +143,14 @@ export default function About({ location }) {
                                 </svg>
                             </div>
 
-                            <div><a href="tel:PHONE_NUM">+234 {"("}814{")"} 696 7250</a></div>
+                            <div><a href="tel:PHONE_NUM">+234 {"("}810{")"} 838 5896</a></div>
                         </div>
                         <div className='flex flex-row gap-x-4 my-2 text-[#686868]'>
                             <div className="my-auto">
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-envelope-fill w-6 h-6" viewBox="0 0 16 16"> <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z"/> </svg>
                             </div>
 
-                            <div><a href="mailto:info@momocredits.com">info@momocredits.com</a></div>
+                            <div><a href="mailto:info@sportycredit.com">info@sportycredit.com</a></div>
                         </div>
 
 
@@ -159,7 +159,7 @@ export default function About({ location }) {
                                 <StaticImage src="../images/fb.svg" alt="" />
                             </div> */}
 
-                            <a href="https://instagram.com/momocreditsng?igshid=ZWIzMWE5ZmU3Zg==">
+                            <a href="#">
                                 <div>
                                     <StaticImage src="../images/ig.svg" alt="" />
                                 </div>

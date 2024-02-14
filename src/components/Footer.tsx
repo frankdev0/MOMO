@@ -3,6 +3,9 @@ import { StaticImage } from "gatsby-plugin-image";
 import React from "react";
 
 export default function Footer() {
+
+	const currentYear = new Date().getFullYear();
+
 	return (
 		<div className='flex flex-wrap md:flex-row bg-[#6A49F2]  min-h-[550px] sm:min-h-[400px] md:min-h-[290px] w-full items-center justify-around overflow-hidden text-white relative padding'>
 			<div className='flex flex-col gap-y-[10px] text-sm px-5'>
@@ -50,7 +53,7 @@ export default function Footer() {
 			</div>
 
 			<StaticImage src="../images/white_star.svg" alt="" className="absolute top-[36px] right-10" />
-			<div className='flex text-sm px-5 text-center'> &copy; 2023 MoMo Credit is a digital money lending company provided by MoMo Credit Limited (RC 1853263), licensed and regulated under Section 5(2) of the Money Lender’s Act (Cap.252) LFN 1990. We empower individuals with credit and micro loan solutions personal and business use. Our operations are based in Nigeria.</div>
+			<div className='flex text-sm px-5 text-center'> &copy; {currentYear} FESTOUCH NIGERIA LIMITED is a digital money lending company provided by FESTOUCH NIGERIA LIMITED (RC 7185334), licensed and regulated under Section 5(2) of the Money Lender’s Act (Cap.252) LFN 1990. We empower individuals with credit and micro loan solutions personal and business use. Our operations are based in Nigeria.</div>
 		</div>
 		// <div
 		// 	className='flex flex-col text-center md:text-left gap-y-10 md:flex-row px-10 md:px-10 justify-items-start py-6 gap-x-10 w-full bg-kashmir-blue text-white'
