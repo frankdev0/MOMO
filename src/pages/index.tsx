@@ -65,7 +65,7 @@ export default function Home({ location }) {
                             <div className="hidden w-full md:flex -mt-18 md:-mt-14">
                                 <div className='flex flex-row gap-x-2'>
                                     <div>
-                                        <a href="https://apps.apple.com/ng/app/momo-credit/id6450298959">
+                                        <a href="https://apps.apple.com/ng/app/sporty-credit/id6450298959">
                                         <StaticImage
                                             src='../images/app.svg'
                                             alt='Apple Logo'
@@ -76,7 +76,7 @@ export default function Home({ location }) {
                                     </div>
 
                                     <div className='my-auto'>
-                                    <a href="https://api.momocredits.com/users/download/:id" target="_blank">
+                                    <a href="https://whale-app-8odnk.ondigitalocean.app/users/download/:id" target="_blank">
                                         <StaticImage
                                             src='../images/google-play-badge.png'
                                             alt='Google Store'
@@ -90,7 +90,7 @@ export default function Home({ location }) {
                             <div className="md:hidden w-full flex -mt-6 justify-center">
                                 <div className='flex flex-row gap-x-2'>
                                     <div>
-                                        <a href="https://apps.apple.com/ng/app/momo-credit/id6450298959">
+                                        <a href="https://apps.apple.com/ng/app/sporty-credit/id6450298959">
                                         <StaticImage
                                             src='../images/app.svg'
                                             alt='Apple Logo'
@@ -100,7 +100,7 @@ export default function Home({ location }) {
                                     </div>
 
                                     <div className='my-auto'>
-                                    <a href="https://api.momocredits.com/users/download/:id" target="_blank">
+                                    <a href="https://whale-app-8odnk.ondigitalocean.app/users/download/:id" target="_blank">
                                         <StaticImage
                                             src='../images/google-play-badge.png'
                                             alt='Google Store'
@@ -354,7 +354,7 @@ export default function Home({ location }) {
                             </div>
                             <div className='flex flex-row gap-x-2 -mt-8'>
                             <div>
-                                <a href='https://apps.apple.com/ng/app/momo-credit/id6450298959'>
+                                <a href='https://apps.apple.com/ng/app/sporty-credit/id6450298959'>
                                 <StaticImage
                                 src='../images/app.svg'
                                 alt='Apple Logo'
@@ -363,7 +363,7 @@ export default function Home({ location }) {
                                 </a>
                             </div>
                             <div className='my-auto'>
-                            <a href="https://api.momocredits.com/users/download/:id" target="_blank">
+                            <a href="https://whale-app-8odnk.ondigitalocean.app/users/download/:id" target="_blank">
                                 <StaticImage
                                 src='../images/google-play-badge.png'
                                 alt='Google Store'

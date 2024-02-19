@@ -43,7 +43,7 @@ export default function About({ location }) {
                         </div>
                         <div className='flex flex-row gap-x-2 -mt-8'>
                             <div>
-                            <a href='https://apps.apple.com/ng/app/momo-credit/id6450298959'>
+                            <a href='https://apps.apple.com/ng/app/sporty-credit/id6450298959'>
                                 <StaticImage
                                     src='../images/app.svg'
                                     alt='Apple Logo'
@@ -53,7 +53,7 @@ export default function About({ location }) {
                             </div>
 
                             <div className='my-auto'>
-                            <a href="https://api.momocredits.com/users/download/:id" target="_blank">
+                            <a href="https://whale-app-8odnk.ondigitalocean.app/users/download/:id" target="_blank">
                                 <StaticImage
                                     src='../images/google-play-badge.png'
                                     alt='Google Play Store'
@@ -319,7 +319,7 @@ export default function About({ location }) {
 
                     <div className='flex flex-row gap-x-2 -mt-6 md:-mt-12'>
                         <div>
-                        <a href='https://apps.apple.com/ng/app/momo-credit/id6450298959'>
+                        <a href='https://apps.apple.com/ng/app/sporty-credit/id6450298959'>
                             <StaticImage
                                 src='../images/app.svg'
                                 alt='Apple Logo'
@@ -329,7 +329,7 @@ export default function About({ location }) {
                         </div>
 
                         <div className='my-auto'>
-                        <a href="https://api.momocredits.com/users/download/:id" target="_blank">
+                        <a href="https://whale-app-8odnk.ondigitalocean.app/users/download/:id" target="_blank">
                             <StaticImage
                                 src='../images/google-play-badge.png'
                                 alt='Google Play Store'
