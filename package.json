@@ -38,7 +38,7 @@
     "gatsby-plugin-postcss": "^5.14.0",
     "postcss": "^8.4.13",
     "prettier-plugin-tailwind": "^2.2.12",
-    "tailwindcss": "^3.0.24",
+    "tailwindcss": "^3.4.11",
     "ts-node": "^10.9.1",
     "typescript": "^5.0.3"
   }
