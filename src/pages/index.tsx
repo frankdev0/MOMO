@@ -196,65 +196,7 @@ export default function Home({ location }) {
                     WHY IS MOCREDITS BETTER THAN LOAN SHARKS
                 </div>
 
-                {/* <div className='grid grid-cols-1 md:grid-cols-3 mt-6 gap-x-6'>
-                    <div className='flex flex-col gap-y-4'>
-                        <div className='m-auto'>
-                            <StaticImage
-                                src='../images/icon_1.svg'
-                                alt=''
-                                width={45}
-                            />
-                        </div>
-
-                        <div className='flex flex-col gap-y-2 text-center'>
-                            <div className='text-xl md:text-2xl text-kashmir-blue font-semibold'>
-                                No Hidden Charges
-                            </div>
-                            <div className="text-[#808080] text-center">
-                                With Momo Credit there is no hidden charges, no collateral.
-                            </div>
-                        </div>
-                    </div>
-
-                    <div className='flex flex-col gap-y-4'>
-                        <div className='m-auto'>
-                            <StaticImage
-                                src='../images/icon_2.svg'
-                                alt=''
-                                width={45}
-                            />
-                        </div>
-
-                        <div className='flex flex-col gap-y-2 text-center'>
-                            <div className='text-xl md:text-2xl text-kashmir-blue font-semibold'>
-                                Secure and Safe
-                            </div>
-                            <div className="text-[#808080] text-center">
-                                MoMo Credit is safe, secure and easy to use.
-                                <div className="invisible">This is just a placeholder</div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div className='flex flex-col gap-y-4'>
-                        <div className='m-auto'>
-                            <StaticImage
-                                src='../images/icon_4.svg'
-                                alt=''
-                                width={45}
-                            />
-                        </div>
-
-                        <div className='flex flex-col gap-y-2 text-center'>
-                            <div className='text-xl md:text-2xl text-kashmir-blue font-semibold'>
-                                Flexible Terms
-                            </div>
-                            <div className="text-[#808080] text-center">
-                                MoMo Credit has the most customer friendly terms and conditions any customer can ask for.
-                            </div>
-                        </div>
-                    </div>
-                </div> */}
+               
 
                 <div className="flex flex-col lg:flex-row -mx-4 overflow-hidden mt-5">
 
@@ -378,41 +320,7 @@ export default function Home({ location }) {
                 </div>
             </div>
 
-            {/* <div
-                className='flex flex-col py-28 px-6  lg:px-60 gap-y-6 text-center'
-                id='testimonial'
-            >
-                <div className='text-3xl font-bold'>What our customers say</div>
-
-                <Carousel
-                    autoPlay
-                    infiniteLoop
-                    interval={2000}
-                    swipeable
-                    showStatus={false}
-                >
-                    <div className=''>
-                        <Testimonial
-                            name='Olayinka Adebayo'
-                            text="I am content and appreciative of the help I have gotten from you all. Without you guys, I can't imagine how quickly and easily my personal loan application went through. Thank you so much for all the services."
-                        />
-                    </div>
-
-                    <div className=''>
-                        <Testimonial
-                            name='Bisi Phillips'
-                            text="I've had no issues with payments from the initial request. There whenever I needed assistance. Service that has helped me through many difficult times. came through for me every time. I greatly appreciate it."
-                        />
-                    </div>
-
-                    <div className=''>
-                        <Testimonial
-                            name='Ngozi Ogbu'
-                            text="MoMo Credit is a top-notch lender. The approval procedure was quick and painless, making it a wonderful experience. I sincerely appreciate your assistance and amazing service."
-                        />
-                    </div>
-                </Carousel>
-            </div> */}
+            
 
             <Footer />
         </main >

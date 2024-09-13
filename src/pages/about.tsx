@@ -178,68 +178,6 @@ export default function About({ location }) {
                 </div>
             </div>
 
-            {/* <div className="relative h-auto">
-                <div className="z-0 absolute">
-                    <Img
-                        alt="About page section"
-                        fluid={data.file.childImageSharp.fluid}
-                        className='w-screen h-[50rem] z-0'
-                    />
-                </div>
-
-
-                <div className='flex flex-row text-white w-full gap-x-40 -mt-20 overflow-hidden z-[1000]'>
-                    <div className='flex flex-col gap-6 my-auto py-40 px-20'>
-                        <div className='flex flex-row'>
-                            <div className='text-3xl capitalize w-2/3'>
-                                What Motivate Users to Download Our Mobile App
-                            </div>
-
-                            <div>
-                                <StaticImage src='../images/white_star.svg' alt='' />
-                            </div>
-                        </div>
-
-                        <div className="text-justify w-2/3">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                            Facilisis pellentesque pharetra volutpat feugiat tempor
-                        </div>
-
-                        <div className="mt-8">
-                            <StaticImage
-                                alt={""}
-                                // width={750}
-                                src={"../images/momoloannew.jpg"}
-                                className="rounded-md w-[20rem] lg:w-[45rem] lg:h-[15rem] xl:h-[30rem]"
-                            />
-                        </div>
-                    </div>
-
-                    <div className='flex flex-col gap-y-6 mt-[35rem]'>
-                        <div className='flex flex-row gap-10'>
-                            <div>
-                                <StaticImage src="../images/moneybag.svg" alt="" />
-                            </div>
-                            <div>Flexible Terms</div>
-                        </div>
-
-                        <div className='flex flex-row gap-10'>
-                            <div>
-                                <StaticImage src="../images/cash.svg" alt="" />
-                            </div>
-                            <div>No Hidden Charges</div>
-                        </div>
-
-                        <div className='flex flex-row gap-10'>
-                            <div>
-                                <StaticImage src="../images/secure.svg" alt="" />
-                            </div>
-                            <div>Secure and Safe</div>
-                        </div>
-                    </div>
-                </div>
-            </div> */}
-
             <div className='flex flex-col gap-y-4 mt-10 md:-mt-10 lg:mt-10 2xl:mt-20'>
                 <div className="text-2xl md:text-4xl text-center">Explore Loan Offers for Different Purpose</div>
 
@@ -262,46 +200,7 @@ export default function About({ location }) {
                 </div>
             </div>
 
-            {/* <div className='flex flex-col text-center my-20 gap-y-6 relative'>
-                <div className="absolute right-60">
-                    <StaticImage src='../images/redstar.png' alt='' />
-                </div>
-                <div className="font-medium text-3xl">Our Team</div>
-                <div className="text-[#727272]">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Facilisis pellentesque pharetra volutpat feugiat tempor
-                </div>
-
-                <div className='flex flex-row justify-center gap-x-20 mt-4'>
-                    <div className='flex flex-col gap-y-2'>
-                        <div>
-                            <StaticImage src="../images/about_1.png" alt="" />
-                        </div>
-
-                        <div className="text-xl font-medium text-kashmir-blue">Jane Liam</div>
-                        <div className="text-[#808080]">Founder</div>
-                    </div>
-
-                    <div className='flex flex-col gap-y-2'>
-                        <div>
-                            <StaticImage src="../images/about_3.png" alt="" />
-                        </div>
-
-                        <div className="text-xl font-medium text-kashmir-blue">Patrick Ihenayo</div>
-                        <div className="text-[#808080]">Manager</div>
-                    </div>
-
-                    <div className='flex flex-col gap-y-2'>
-                        <div>
-                            <StaticImage src="../images/about_2.png" alt="" />
-                        </div>
-
-                        <div className="text-xl font-medium text-kashmir-blue">Nneka Peter</div>
-                        <div className="text-[#808080]">Co-Founder</div>
-                    </div>
-                </div>
-
-            </div> */}
+          
 
             <div className='flex flex-col md:flex-row mx-auto gap-x-10 my-10 md:my-28 px-20 relative'>
                 <div className='flex flex-col gap-y-4'>
