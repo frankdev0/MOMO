@@ -40,20 +40,20 @@ export default function About({ location }) {
   
     const faqData = [
       {
-        question: 'What is Sportycredit?',
+        question: 'What is Mocredits?',
         answer:
-          'Sportycredit is a loan app that allows you apply for a short term loan through the Sportycredit app.',
+          'Mocredits is a loan app that allows you apply for a short term loan through the Mocredits app.',
       },
       {
-        question: 'Why should I use Sportycredit app?',
+        question: 'Why should I use Mocredits app?',
         answer:
-          'Sportycredit gives you access to soft loan, business loan and education loan. With Sportycredit you are just a click away from accessing that urgent funds to finance your urgent needs.',
+          'Mocredits gives you access to soft loan, business loan and education loan. With Mocredits you are just a click away from accessing that urgent funds to finance your urgent needs.',
       },
      
       {
-        question: 'Who can apply for loan on Sportycredit app?',
+        question: 'Who can apply for loan on Mocredits app?',
         answer:
-          'Only salary earners with proof of their monthly salaries can apply for loans on Sportycredit app. Sportycredit is strictly for salary earners',
+          'Only salary earners with proof of their monthly salaries can apply for loans on Mocredits app. Mocredits is strictly for salary earners',
       },
       {
         question: 'Who can stand as a guarantor?',
@@ -66,9 +66,9 @@ export default function About({ location }) {
           'First time customers can apply for a loan from N10,000 to N50,000',
       },
       {
-        question: 'How can a user delete their Sportycredit Account?',
+        question: 'How can a user delete their Mocredits Account?',
         answer:
-          'If you would like to delete your Sportycredit account, kindly reach out to us on customer@sportycredit.com',
+          'If you would like to delete your Mocredits account, kindly reach out to us on customer@mocredits.com',
       },
       {
         question: 'What is the duration?',
@@ -82,10 +82,10 @@ export default function About({ location }) {
         {
             question: 'Do I need a guarantor to apply for the loan?',
             answer:
-              'Yes, you are required to fill in two guarantors information to be eligible to apply for the loan on the Sportycredit app',
+              'Yes, you are required to fill in two guarantors information to be eligible to apply for the loan on the Mocredits app',
           },
       {
-        question: 'What is the duration of Sportycredit loan?',
+        question: 'What is the duration of Mocredits loan?',
         answer:
           '7 days for new customers.',
       },
@@ -95,9 +95,9 @@ export default function About({ location }) {
           'Returning customers who have good repayment history can have their loan duration extended to 14 days.',
       },
       {
-        question: 'How do I register on the Sportycredit app?',
+        question: 'How do I register on the Mocredits app?',
         answer:
-          'Simply download the Sportycredit app from android or ios playstore, install and register.',
+          'Simply download the Mocredits app from android or ios playstore, install and register.',
       },
       {
         question: 'Will I pay late penalty charges if I am unable to repay my loan within the loan duration?',
@@ -105,9 +105,9 @@ export default function About({ location }) {
           'Yes, there is a penalty charge on daily basis if you fail to make repayment at the expiration of the loan duration.',
       },
       {
-        question: 'What is the benefits of using Sportycredit app?',
+        question: 'What is the benefits of using Mocredits app?',
         answer:
-          'Sportycredit app is safe, secure and reliable. It is easy to use and it is customer friendly',
+          'Mocredits app is safe, secure and reliable. It is easy to use and it is customer friendly',
       },
       {
         question: 'As a returning customer, can my date be extended?',
@@ -119,7 +119,7 @@ export default function About({ location }) {
     return (
         <main className='w-full h-screen  font-poppins'>
             <div className="flex flex-col">
-            <title>Contact Sportycredit</title>
+            <title>Contact Mocredits</title>
 
             <Navbar path={location.pathname} />
 
@@ -150,7 +150,7 @@ export default function About({ location }) {
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-envelope-fill w-6 h-6" viewBox="0 0 16 16"> <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z"/> </svg>
                             </div>
 
-                            <div><a href="mailto:support@sportycredit.com">support@sportycredit.com</a></div>
+                            <div><a href="mailto:support@mocredits.com">support@mocredits.com</a></div>
                         </div>
 
 
@@ -164,7 +164,7 @@ export default function About({ location }) {
                                     <StaticImage src="../images/ig.svg" alt="" />
                                 </div>
                             </a>
-
+                              
                             {/* <div>
                                 <StaticImage src="../images/ig.svg" alt="" />
                             </div> */}
@@ -174,7 +174,7 @@ export default function About({ location }) {
                             </div> */}
                         </div>
                     </div>
-                      <form action="https://getform.io/f/69e1d589-9df7-48d1-aba9-afea52d317cb" className="flex flex-col bg-[#6A49F2] rounded-xl mt-20 md:mt-44 lg:mt-20  md:px-16 py-10 justify-center md:w-4/5 2xl:w-1/2 md:mx-auto md:mr-16 h-4/5 gap-y-4 z-50" method="POST"  onSubmit={handleSubmit}>
+                      <form action="https://getform.io/f/69e1d589-9df7-48d1-aba9-afea52d317cb" className="flex flex-col bg-[#1F58A3] rounded-xl mt-20 md:mt-44 lg:mt-20  md:px-16 py-10 justify-center md:w-4/5 2xl:w-1/2 md:mx-auto md:mr-16 h-4/5 gap-y-4 z-50" method="POST"  onSubmit={handleSubmit}>
                     
                         <input type="text"  name="Full_Name" id="" className="rounded-xl p-4" placeholder="Full Name" />
                           {/* {...register("name", {required: true, maxLength: 100,})} */}

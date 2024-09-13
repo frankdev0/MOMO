@@ -27,7 +27,7 @@ export default function Home({ location }) {
 
     return (
         <main className='w-full h-screen flex flex-col overflow-x-hidden font-raleway'>
-            <title>Sportycredit Home</title>
+            <title>Mocredits Home</title>
 
             <Navbar path={location.pathname} />
 
@@ -58,14 +58,14 @@ export default function Home({ location }) {
                             <div className="md:text-5xl  mb-1">5 Hundred Thousand Naira</div>
 
                             <div className="text-[0.65rem] md:text-base w-screen md:w-auto px-10 md:px-0 mb-16">
-                                Loan as low as 10,000 and as high as 500,000 with sportycredit. We specialzie in providing Nigerians citizens business loans to build their financial horizone of their businesses.
+                                Loan as low as 10,000 and as high as 500,000 with mocredits. We specialzie in providing Nigerians citizens business loans to build their financial horizone of their businesses.
                                ` {/* Get up to 5 million Naira with MoMo Credit. It's easy and with no collateral. You can build your credit worthiness to 5,000,000. With MoMo Credit you are just a click away from getting that money to sort out your pressing needs.’` */}
                             </div>
 
                             <div className="hidden w-full md:flex -mt-18 md:-mt-14">
                                 <div className='flex flex-row gap-x-2'>
                                     <div>
-                                        <a href="https://apps.apple.com/ng/app/sporty-credit/id6450298959">
+                                        <a href="https://apps.apple.com/ng/app/spit/id6450298959">
                                         <StaticImage
                                             src='../images/app.svg'
                                             alt='Apple Logo'
@@ -76,7 +76,7 @@ export default function Home({ location }) {
                                     </div>
 
                                     <div className='my-auto'>
-                                    <a href="https://sportycredit.fra1.cdn.digitaloceanspaces.com/apk/app.apk" target="_blank">
+                                    <a href="https://t.fra1.cdn.digitaloceanspaces.com/apk/app.apk" target="_blank">
                                         <StaticImage
                                             src='../images/google-play-badge.png'
                                             alt='Google Store'
@@ -90,7 +90,7 @@ export default function Home({ location }) {
                             <div className="md:hidden w-full flex -mt-6 justify-center">
                                 <div className='flex flex-row gap-x-2'>
                                     <div>
-                                        <a href="https://apps.apple.com/ng/app/sporty-credit/id6450298959">
+                                        <a href="https://apps.apple.com/ng/app/dit/id6450298959">
                                         <StaticImage
                                             src='../images/app.svg'
                                             alt='Apple Logo'
@@ -100,7 +100,7 @@ export default function Home({ location }) {
                                     </div>
 
                                     <div className='my-auto'>
-                                    <a href="https://sportycredit.fra1.cdn.digitaloceanspaces.com/apk/app.apk" target="_blank">
+                                    <a href="https://it.fra1.cdn.digitaloceanspaces.com/apk/app.apk" target="_blank">
                                         <StaticImage
                                             src='../images/google-play-badge.png'
                                             alt='Google Store'
@@ -121,7 +121,7 @@ export default function Home({ location }) {
                 <div className='flex flex-row px-20 mt-20'>
                     <div className="md:hidden">
                         <StaticImage
-                            src='../images/bigiphonexx.png'
+                            src='../images/bigiphonex.png'
                             alt='iPhone1'
                             // width={550}
                             className='w-[246px] h-[502px]'
@@ -142,7 +142,7 @@ export default function Home({ location }) {
 
                 <div className="hidden md:block">
                     <StaticImage
-                        src='../images/bigiphonexx.png'
+                        src='../images/bigiphonex.png'
                         alt='iPhone1'
                         // width={550}
                         className='w-[246px] h-[502px]'
@@ -151,7 +151,7 @@ export default function Home({ location }) {
 
                 <div className='hidden md:block mt-28 ml-6'>
                     <StaticImage
-                        src='../images/iphonesmalll.png'
+                        src='../images/iphonex.png'
                         alt='iPhone2'
                         // width={500}
                         className='w-[183px] h-[374px]'
@@ -164,7 +164,7 @@ export default function Home({ location }) {
                         Urgent Cash Within 5mins is Guaranteed
                     </div>
                     <div className='text-justify mt-2 text-[#808080]'>
-                        You dont need to beg for urgent cash anymore, just apply on sportycredit and get credited instantly.
+                        You dont need to beg for urgent cash anymore, just apply on Mocredits and get credited instantly.
                         {/* MoMo Credit offers loan for your urgent bills.
                         With MoMo Credit you can get loan to pay for your DSTV subscription, pay for your light bill, etc... */}
                     </div>
@@ -191,9 +191,9 @@ export default function Home({ location }) {
 
 
             <div className='flex flex-col md:px-40 lg:px-40 py-20 px-6'>
-                <div className='capitalize text-[#6A49F2] text-center text-2xl md:text-3xl font-medium pb-2'>
+                <div className='capitalize text-[#1F58A3] text-center text-2xl md:text-3xl font-medium pb-2'>
                     {/* Benefits of using the Momo Credit App */}
-                    WHY IS SPORTYCREDIT BETTER THAN LOAN SHARKS
+                    WHY IS MOCREDITS BETTER THAN LOAN SHARKS
                 </div>
 
                 {/* <div className='grid grid-cols-1 md:grid-cols-3 mt-6 gap-x-6'>
@@ -269,7 +269,7 @@ export default function Home({ location }) {
                             </div>
 
                             <div className='flex flex-col gap-y-2 text-center'>
-                                <div className='text-xl md:text-xl text-[#6A49F2] font-semibold'>
+                                <div className='text-xl md:text-xl text-[#1F58A3] font-semibold'>
                                     {/* No Hidden Charges */}
                                     FAST LOAN DISBURSEMENT
                                 </div>
@@ -292,7 +292,7 @@ export default function Home({ location }) {
                             </div>
 
                             <div className='flex flex-col gap-y-2 text-center'>
-                                <div className='text-xl md:text-xl text-[#6A49F2] font-semibold'>
+                                <div className='text-xl md:text-xl text-[#1F58A3] font-semibold'>
                                    BUSINESS LOAN OPPORTUNITY
                                 </div>
                                 <div className="text-[#808080] text-center">
@@ -315,7 +315,7 @@ export default function Home({ location }) {
                         </div>
 
                         <div className='flex flex-col gap-y-2 text-center'>
-                            <div className='text-xl md:text-xl text-[#6A49F2] font-semibold'>
+                            <div className='text-xl md:text-xl text-[#1F58A3] font-semibold'>
                                 GOOD LOAN COLLECTION ETHICS
                             </div>
                             <div className="text-[#808080] text-center">
@@ -336,7 +336,7 @@ export default function Home({ location }) {
                 <div className='flex flex-col md:flex-row justify-center w-full mx-auto'>
                     <div className='flex flex-col items-center gap-y-4 md:ml-20  md:text-left text-center ' id="bounce">
                         <StaticImage
-                            src='../images/bouncingiphonexx.png'
+                            src='../images/bouncingiphonex.png'
                             alt=''
                         width={350}
                         />
@@ -346,15 +346,15 @@ export default function Home({ location }) {
                         <div className='flex flex-col items-center gap-y-4 md:ml-20 p-10 md:text-left text-center md:w-1/2 md:min-w-[500px]'>
                             <div className='text-2xl md:text-3xl capitalize font-medium xl:w-[70%]'>
                             {/* Say Goodbye to "Urgent 2K" */}
-                            WITH SPORTYCREDIT YOUR URGENT 10K IS ASSURED
+                            WITH MOCREDITS YOUR URGENT 10K IS ASSURED
                             </div>
                             <div className='md:w-2/3'>
                             {/* With MoMo Credit no more calling anybody to send you "urgent 2k" because MoMo Credit have you covered and just a click away. */}
-                            You do not need to go through the embarrsasment of begging relatives for money. A simple application processs with sportycredit gives you the amount you want with ease.
+                            You do not need to go through the embarrsasment of begging relatives for money. A simple application processs with mocredits gives you the amount you want with ease.
                             </div>
                             <div className='flex flex-row gap-x-2 -mt-8'>
                             <div>
-                                <a href='https://apps.apple.com/ng/app/sporty-credit/id6450298959'>
+                                <a href='https://apps.apple.com/ng/app/spit/id6450298959'>
                                 <StaticImage
                                 src='../images/app.svg'
                                 alt='Apple Logo'
@@ -363,7 +363,7 @@ export default function Home({ location }) {
                                 </a>
                             </div>
                             <div className='my-auto'>
-                            <a href="https://sportycredit.fra1.cdn.digitaloceanspaces.com/apk/app.apk" target="_blank">
+                            <a href="https://dit.fra1.cdn.digitaloceanspaces.com/apk/app.apk" target="_blank">
                                 <StaticImage
                                 src='../images/google-play-badge.png'
                                 alt='Google Store'

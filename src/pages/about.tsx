@@ -31,7 +31,7 @@ export default function About({ location }) {
                 <div className='flex flex-row md:ml-20 mb-48 md:mb-0'>
                     <div className='flex flex-col gap-y-4 lg:ml-20 md:mt-10 md:text-left text-center'>
                         <div className='text-3xl md:text-4xl 2xl:text-6xl capitalize'>
-                            WHAT MAKES SPORTYCREDIT TOPNOTCH
+                            WHAT MAKES MOCREDITS TOPNOTCH
                         </div>
                         <div className='text-[#808080] 2xl:text-xl'>
                             {/* We provide fast low interest loans. You can count on us to meet your urgent financial needs. */}
@@ -53,7 +53,7 @@ export default function About({ location }) {
                             </div>
 
                             <div className='my-auto'>
-                            <a href="https://sportycredit.fra1.cdn.digitaloceanspaces.com/apk/app.apk" target="_blank">
+                            <a href="https://.fra1.cdn.digitaloceanspaces.com/apk/app.apk" target="_blank">
                                 <StaticImage
                                     src='../images/google-play-badge.png'
                                     alt='Google Play Store'
@@ -67,7 +67,7 @@ export default function About({ location }) {
 
                 <div className='px-10 md:px-0 md:mr-28 my-2' id="bounce">
                     <StaticImage
-                        src='../images/grouped.png'
+                        src='../images/groupeddevicex.png'
                         alt=''
                         width={800}
                     />
@@ -76,7 +76,7 @@ export default function About({ location }) {
 
             <div className="h-auto relative -mt-52 md:mt-0 lg:-mt-20 xl:-mt-52 2xl:-mt-40 ">
                 <div className="absolute">
-                    <StaticImage className="z-0 w-screen py-24 h-[50rem] md:h-auto" src="../images/blue.png" alt="" />
+                    <StaticImage className="z-0 w-screen py-24 h-[50rem] md:h-auto" src="../images/blue_rectangle.png" alt="" />
                 </div>
                 <div className='flex flex:col md:flex-row text-white w-full gap-x-10 overflow-hidden -mt-10 md:mt-0'>
                     <div className='flex flex-col my-auto py-40 px-10 md:px-20'>
@@ -313,7 +313,7 @@ export default function About({ location }) {
 
                     <div className="text-[#727272] xl:w-2/3">
                         {/* With our simple and easy loan application process, you can access loans with just one-clicks. Download Now. */}
-                        You are just a click away from growing your business. Download sportycredit to get started
+                        You are just a click away from growing your business. Download mocredits to get started
                     </div>
 
 
@@ -329,7 +329,7 @@ export default function About({ location }) {
                         </div>
 
                         <div className='my-auto'>
-                        <a href="https://sportycredit.fra1.cdn.digitaloceanspaces.com/apk/app.apk" target="_blank">
+                        <a href="https://it.fra1.cdn.digitaloceanspaces.com/apk/app.apk" target="_blank">
                             <StaticImage
                                 src='../images/google-play-badge.png'
                                 alt='Google Play Store'

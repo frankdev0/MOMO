@@ -18,7 +18,7 @@ export default function Terms({ location }) {
 
     return (
         <main className='w-full h-screen flex flex-col font-poppins'>
-            <title>sportycredit's Terms</title>
+            <title>Mocredits Terms</title>
 
             <Navbar path={location.pathname} />
 
@@ -42,7 +42,7 @@ export default function Terms({ location }) {
                     </div>
 
                     <div className="mt-2">
-                    SportyCredit is a loan servicing company that gives short term loans to its customers across Nigeria.
+                    Mocredits is a loan servicing company that gives short term loans to its customers across Nigeria.
                     </div>
                     <div className="mt-2">
                     Kindly note that as a first time customer you are only limited to 15000 which is subject to increment as you continue using the app.
