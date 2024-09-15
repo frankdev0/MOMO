@@ -96,7 +96,6 @@ export default function Terms({ location }) {
 
                 </div>
 
-                {/* starts here */}
               
 
 

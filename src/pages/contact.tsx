@@ -267,7 +267,7 @@ export default function About({ location }) {
       </div>
       </div>
     </div>
-    {/* Faq Ends here */}
+    
             <Footer />
         </main>
     );
