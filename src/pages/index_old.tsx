@@ -16,7 +16,7 @@ export default function Home({ location }) {
 
 			<Navbar path={location.pathname} />
 
-			{/* Hero */}
+	
 			<div
 				className='md:flex flex-col md:flex-row mx-auto md:justify-evenly text-kashmir-blue w-full z-10 md:pl-72  pt-40 hidden'
 				id='home_hero'
@@ -301,7 +301,6 @@ export default function Home({ location }) {
 			>
 				<div className='text-3xl font-bold'>What our customers say</div>
 
-				{/* <div className="w-2/3 mx-auto mt-4"></div> */}
 				<Carousel
 					autoPlay
 					infiniteLoop
