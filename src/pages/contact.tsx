@@ -143,14 +143,14 @@ export default function About({ location }) {
                                 </svg>
                             </div>
 
-                            <div><a href="tel:PHONE_NUM">+234 {"("}810{")"} 838 5896</a></div>
+                            <div><a href="tel:PHONE_NUM">+234 {"("}707{")"} 927 4130</a></div>
                         </div>
                         <div className='flex flex-row gap-x-4 my-2 text-[#686868]'>
                             <div className="my-auto">
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-envelope-fill w-6 h-6" viewBox="0 0 16 16"> <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z"/> </svg>
                             </div>
 
-                            <div><a href="mailto:support@mocredits.com">support@mocredits.com</a></div>
+                            <div><a href="mailto:info@mocredits.com">info@mocredits.com</a></div>
                         </div>
 
 
