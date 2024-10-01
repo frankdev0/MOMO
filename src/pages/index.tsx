@@ -34,9 +34,9 @@ export default function Home({ location }) {
 
             {/* Hero */}
            
-                <div className="text-[#FB8405] flex flex-wrap justify-end text-xs md:text-sm lg:text-base font-medium px-3 italic animate-fadeIn">
-                <span className="mr-1 md:mr-2 lg:mr-3">To access solar panel finance</span>
-                <a href='/mocredits-solar-finance' className="italic text-[#1F58A3] whitespace-nowrap animate-bounce">click here</a>
+                <div className=" bg-[#1F58A3] text-[#FB8405] py-1 flex flex-wrap justify-center text-xs md:text-sm lg:text-base font-medium px-3 italic animate-fadeIn">
+                <span className="mr-1 md:mr-2 lg:mr-3 font-bold">To access solar panel finance</span>
+                <a href='/mocredits-solar-finance' className="italic text-[#FFFFFF] whitespace-nowrap animate-bounce">click here</a>
                 </div>
 
 
