@@ -33,6 +33,13 @@ export default function Home({ location }) {
             <Navbar path={location.pathname} />
 
             {/* Hero */}
+           
+                <div className="text-[#FB8405] flex flex-wrap justify-end text-xs md:text-sm lg:text-base font-medium px-3 italic animate-fadeIn">
+                <span className="mr-1 md:mr-2 lg:mr-3">To access solar panel finance</span>
+                <a href='/mocredits-solar-finance' className="italic text-[#1F58A3] whitespace-nowrap animate-bounce">click here</a>
+                </div>
+
+
             <section className="pb-64 md:pb-96 font-poppins overflow-hidden md:overflow-visible">
                 <div className="flex flex-col static h-96">
                     <div className='relative'>
@@ -271,12 +278,10 @@ export default function Home({ location }) {
 
                 </div>
             </div>
-            <div className='capitalize text-[#1F58A3] text-center text-2xl md:text-3xl font-medium pb-20'>
-                    {/* Benefits of using the Momo Credit App */}
+            {/* <div className='capitalize text-[#1F58A3] text-center text-2xl md:text-3xl font-medium pb-20'>
                     SOLAR FINANCING BY MOCREDITS
                 </div>
                 <div className='flex flex-col md:flex-row justify-between items-center md:px-40 px-6 gap-x-10 gap-y-4'>
-  {/* Left Section: Image */}
   
   <div className='flex-shrink-0 w-full md:w-auto'>
     <StaticImage
@@ -286,7 +291,6 @@ export default function Home({ location }) {
     />
   </div>
 
-  {/* Right Section: Text Content */}
   <div className='max-w-lg w-full'>
   <h3 className='text-xl text-[#1F58A3] font-semibold mb-4 text-center md:text-left'>OUR PACKAGES</h3>
     <div>
@@ -400,13 +404,11 @@ export default function Home({ location }) {
       </div>
     </div>
   </div>
-</div>
+</div> */}
 
-{/* MY YOUTUBE VIDEO */}
-
-<div>
+{/* <div>
     <YoutubeVideo/>
-</div>
+</div> */}
 
             <div
                 className='flex flex-col md:flex-row w-full mt-10 justify-center md:h-[600px] h-[850px]'
