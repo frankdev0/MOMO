@@ -66,7 +66,7 @@ export default function Home({ location }) {
                             <div className="md:text-5xl  mb-1">Five Hundred Thousand Naira</div>
 
                             <div className="text-[0.65rem] md:text-base w-screen md:w-auto px-10 md:px-0 mb-16">
-                                Loan as low as 10,000 and as high as 500,000 with mocredits. We specialzie in providing Nigerians citizens business loans to build their financial horizone of their businesses.
+                                Loan as low as 10,000 and as high as 500,000 with mocredits. We specialize in providing Nigerians citizens business loans to build their financial horizone of their businesses.
                                ` {/* Get up to 5 million Naira with MoMo Credit. It's easy and with no collateral. You can build your credit worthiness to 5,000,000. With MoMo Credit you are just a click away from getting that money to sort out your pressing needs.’` */}
                             </div>
 
@@ -270,7 +270,7 @@ export default function Home({ location }) {
                             </div>
                             <div className="text-[#808080] text-center">
                                 {/* MoMo Credit has the most customer friendly terms and conditions any customer can ask for. */}
-                                We are dedicated to servcie of our customers as we are binded by Nigerian laws to carry out our loan collection using ethical method.
+                                We are dedicated to providing decent services to our clients as we are bound by Nigerian laws to conduct loan management and debt collection using ethical methods.
                             </div>
                         </div>
                     </div>
