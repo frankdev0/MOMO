@@ -53,8 +53,40 @@ export default function Footer() {
 			</div>
 
 			<StaticImage src="../images/white_star.svg" alt="" className="absolute top-[36px] right-10" />
+			<div className="w-full mt-4 border-b border-white flex justify-center gap-x-10 pb-2 mx-5">
+				<a href="https://www.facebook.com/profile.php?id=61567285040265" target="_blank" rel="noopener noreferrer">
+					<div className="w-6 filter invert">
+						<StaticImage src="../images/fb.svg" alt="Facebook" />
+					</div>
+				</a>
+
+				<a href="https://www.instagram.com/mocreditsng?igsh=amxiZjB3cnFwZDcx" target="_blank" rel="noopener noreferrer">
+					<div className="w-6 filter invert">
+						<StaticImage src="../images/ig.svg" alt="Instagram" />
+					</div>
+				</a>
+
+				<a href="https://www.linkedin.com/company/mocredits/" target="_blank" rel="noopener noreferrer">
+					<div className="w-6 filter invert">
+						<StaticImage src="../images/linkd.svg" alt="LinkedIn" />
+					</div>
+				</a>
+
+				<a href="https://x.com/Mocreditsng?t=ik6JOUn_WjBnu56TYjnqvg&s=08" target="_blank" rel="noopener noreferrer">
+					<div className="w-6 filter invert">
+						<StaticImage src="../images/twitter.jpeg" alt="Twitter" />
+					</div>
+				</a>
+			</div>
+
+			
+			
 			<div className='flex text-sm px-5 text-center'> &copy; {currentYear} Mocredits is a digital money lending company provided by Mocredits Limited (RC 1853263), licensed and regulated under Section 5(2) of the Money Lender’s Act (Cap.252) LFN 1990. We empower individuals with credit and micro loan solutions personal and business use. Our operations are based in Nigeria.</div>
+			
 		</div>
+
+		// </div>
+		
 		// <div
 		// 	className='flex flex-col text-center md:text-left gap-y-10 md:flex-row px-10 md:px-10 justify-items-start py-6 gap-x-10 w-full bg-kashmir-blue text-white'
 		// >
