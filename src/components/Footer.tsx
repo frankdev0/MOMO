@@ -53,7 +53,7 @@ export default function Footer() {
 			</div>
 
 			<StaticImage src="../images/white_star.svg" alt="" className="absolute top-[36px] right-10" />
-			<div className="w-full mt-4 border-b border-white flex justify-center gap-x-10 pb-2 mx-5">
+			<div className="w-full mt-4 border-b border-[#ccc] flex justify-center gap-x-10 pb-2 mx-5">
 				<a href="https://www.facebook.com/profile.php?id=61567285040265" target="_blank" rel="noopener noreferrer">
 					<div className="w-6 filter invert">
 						<StaticImage src="../images/fb.svg" alt="Facebook" />
