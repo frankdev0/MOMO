@@ -154,24 +154,28 @@ export default function About({ location }) {
                         </div>
 
 
-                        <div className='flex flex-row gap-x-10 mt-4'>
-                            {/* <div>
+                        <div className='flex flex-row gap-x-10 align-center mt-4'>
+                        <a href="https://www.facebook.com/profile.php?id=61567285040265" target="_blank" rel="noopener noreferrer">
+                            <div>
                                 <StaticImage src="../images/fb.svg" alt="" />
-                            </div> */}
+                            </div>
+                            </a>
 
-                            <a href="#">
+                            <a href="https://www.instagram.com/mocreditsng?igsh=amxiZjB3cnFwZDcx" target="_blank" rel="noopener noreferrer">
                                 <div>
                                     <StaticImage src="../images/ig.svg" alt="" />
                                 </div>
                             </a>
-                              
-                            {/* <div>
-                                <StaticImage src="../images/ig.svg" alt="" />
-                            </div> */}
-
-                            {/* <div>
-                                <StaticImage src="../images/twitter.svg" alt="" />
-                            </div> */}
+                            <a href="https://www.linkedin.com/company/mocredits/" target="_blank" rel="noopener noreferrer">
+                            <div className="w-6">
+                                <StaticImage src="../images/linkd.svg" alt="" />
+                            </div>
+                            </a>
+                            <a href="https://x.com/Mocreditsng?t=ik6JOUn_WjBnu56TYjnqvg&s=08" target="_blank" rel="noopener noreferrer">
+                            <div className="w-6">
+                                <StaticImage src="../images/twitter.jpeg" alt="" />
+                            </div>
+                            </a>
                         </div>
                     </div>
                       <form action="https://getform.io/f/69e1d589-9df7-48d1-aba9-afea52d317cb" className="flex flex-col bg-[#1F58A3] rounded-xl mt-20 md:mt-44 lg:mt-20  md:px-16 py-10 justify-center md:w-4/5 2xl:w-1/2 md:mx-auto md:mr-16 h-4/5 gap-y-4 z-50" method="POST"  onSubmit={handleSubmit}>
