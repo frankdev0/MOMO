@@ -53,7 +53,7 @@ export default function Footer() {
 			</div>
 
 			<StaticImage src="../images/white_star.svg" alt="" className="absolute top-[36px] right-10" />
-			<div className="w-full mt-4 border-b border-[#ccc] flex justify-center gap-x-10 pb-2 mx-5">
+			<div className="w-full mt-4 border-b border-[#ccc] flex justify-center gap-x-10 pb-4 mx-5">
 				<a href="https://www.facebook.com/profile.php?id=61567285040265" target="_blank" rel="noopener noreferrer">
 					<div className="w-6 filter invert">
 						<StaticImage src="../images/fb.svg" alt="Facebook" />
@@ -81,7 +81,11 @@ export default function Footer() {
 
 			
 			
-			<div className='flex text-sm px-5 text-center'> &copy; {currentYear} Mocredits is a digital money lending company provided by Mocredits Limited (RC 1853263), licensed and regulated under Section 5(2) of the Money Lender’s Act (Cap.252) LFN 1990. We empower individuals with credit and micro loan solutions personal and business use. Our operations are based in Nigeria.</div>
+			<div className='flex justify-center items-center'>
+  <div className='text-sm px-5 text-center max-w-[100%] md:max-w-[70%] lg:max-w-[100%] mx-auto'>
+    &copy; {currentYear} Mocredits is a digital money lending company provided by Mocredits Limited (RC 1853263), licensed and regulated under Section 5(2) of the Money Lender’s Act (Cap.252) LFN 1990. We empower individuals with credit and micro loan solutions for personal and business use. Our operations are based in Nigeria.
+  </div>
+</div>
 			
 		</div>
 
